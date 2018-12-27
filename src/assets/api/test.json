@@ -1,0 +1,117 @@
+{
+"numberQuestion":"10",
+ "quizz":[ 
+        {
+          "id": 0, 
+          "question": "Naruto à changé d'habit car il voulait changé de look?", 
+          "picture":"", 
+          "response": false, 
+          "truePicture":"assets/quizzImg/truepicture.png", 
+          "falsePicture":"assets/quizzImg/falsepicture.jpg", 
+          "textResponseTrue":"Bonne réponse", 
+          "textresponseFalse":"Mauvaise réponse",
+          "jokerResponse":"État de ces habits après un entraînement acharné",
+          "level": "Facile"
+        },
+        {
+          "id": 1, 
+          "question": "Kakashi lit-il le paradis du batifolage?",
+          "picture":"",
+          "response": true, 
+          "truePicture":"assets/quizzImg/truePicture.png", 
+          "falsePicture":"assets/quizzImg/falsePicture.jpg", 
+          "textResponseTrue":"Bonne réponse", 
+          "textResponseFalse":"Mauvaise réponse",
+          "jokerResponse":"Tranquile sur un arbre"
+        },
+        {
+          "id": 2, 
+          "question": "La mission de Saï était de tué Orochimaru?", 
+          "picture":"",
+          "response": false, 
+          "truePicture":"assets/quizzImg/truePicture.png", 
+          "falsePicture":"assets/quizzImg/falsePicture.jpg", 
+          "textResponseTrue":"Bonne réponse", 
+          "textResponseFalse":"Mauvaise réponse",
+          "jokerResponse":"Il fait parti du clan Uchiwa"
+        },
+        {
+          "id": 3, 
+          "question": "Le jutsu de Yamato est mokuton?", 
+          "picture":"",
+          "response": true, 
+          "truePicture":"assets/quizzImg/truePicture.png", 
+          "falsePicture":"assets/quizzImg/falsePicture.jpg", 
+          "textResponseTrue":"Bonne réponse", 
+          "textResponseFalse":"Mauvaise réponse",
+          "jokerResponse":"Hashirama"
+        },
+        {
+          "id": 4, 
+          "question": "Hidan à tué le premier Kazekage?", 
+          "picture":"",
+          "response": false, 
+          "truePicture":"assets/quizzImg/truePicture.png", 
+          "falsePicture":"assets/quizzImg/falsePicture.jpg", 
+          "textResponseTrue":"Bonne réponse", 
+          "textResponseFalse":"Mauvaise réponse",
+          "jokerResponse":"Il était une marionnette"
+        },
+        {
+          "id": 5, 
+          "question":"Sasori et Deidara ont capturé Yonbi?", 
+          "picture":"", 
+          "response": true, 
+          "truePicture":"assets/quizzImg/truePicture.png", 
+          "falsePicture":"assets/quizzImg/falsePicture.jpg", 
+          "textResponseTrue":"Bonne réponse", 
+          "textResponseFalse":"Mauvaise réponse",
+          "jokerResponse":"L'un des deux à combattu contre Sakura et l'autre poursuivais Kakashi"
+        },
+        {
+          "id": 6, 
+          "question": "Kizame est du village de iwa?", 
+          "picture":"", 
+          "response": false, 
+          "truePicture":"assets/quizzImg/truePicture.png", 
+          "falsePicture":"assets/quizzImg/falsePicture.jpg", 
+          "textResponseTrue":"Bonne réponse", 
+          "textResponseFalse":"Mauvaise réponse",
+          "jokerResponse":"Au debut des épisodes naruto, naruto s'y rend avec son équipe"
+       },
+       {
+         "id": 7, 
+         "question": "Est-ce que Saï c'est marié avec Ino", 
+         "picture":"", 
+         "response": true, 
+         "truePicture":"assets/quizzImg/truePicture.png", 
+         "falsePicture":"assets/quizzImg/falsePicture.jpg", 
+         "textResponseTrue":"Bonne réponse", 
+         "textResponseFalse":"Mauvaise réponse",
+         "jokerResponse":"C'est la rival de Sakura"
+       },
+       {
+         "id": 8, 
+         "question": "La couleur du susanoo de Shisui Uchiwa est-elle violet?", 
+         "response": false, 
+         "truePicture":"assets/quizzImg/truePicture.png", 
+         "picture":"", "falsePicture":"assets/quizzImg/falsePicture.jpg", 
+         "textResponseTrue":"Bonne réponse", 
+         "textResponseFalse":"Mauvaise réponse",
+         "jokerResponse":"Comme la couleur des yeux de Kakuzu"
+       },
+       {
+         "id": 9, 
+         "question": "Kakashi à tué Kakuzu?", 
+         "response": true, 
+         "truePicture":"assets/quizzImg/truePicture.png", 
+         "picture":"", 
+         "falsePicture":"assets/quizzImg/falsePicture.jpg", 
+         "textResponseTrue":"Bonne réponse", 
+         "textResponseFalse":"Mauvaise réponse",
+         "jokerResponse":"Son père était le croc blan de konoha"
+        }
+      ] 
+  }
+
+      

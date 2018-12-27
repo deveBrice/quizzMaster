@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title class="title">
+        ScoreFinale
+      </ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <div class="content">
+    <div class="scoreFinale">
+        <h1>Score Finale</h1>
+        <div><strong><p><span>{{scoreFinale}}/10</span></p></strong></div>
+    </div> 
+    <div id="group-button">
+        <button class="btn" ion-button small>Partager</button>
+        <button class="btn" ion-button small>Publier</button>
+        <button class="btn" ion-button small (click)="backToHome()">Rejouer</button>
+    </div>
+</div>
+</ion-content>
+<ion-footer>
+    <ion-toolbar>
+        <button class="btnClassement" ion-button large full (click)="openPageClassement()">Classement</button>   
+    </ion-toolbar>
+</ion-footer>

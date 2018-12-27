@@ -1,0 +1,33 @@
+page-score-finale {
+
+.content {
+    
+}
+    .scoreFinale{
+        text-align: center;
+    }
+  
+    .scoreFinale p {
+        font-size: 50px;
+        color: green;
+        margin: 0px;
+       
+    }
+
+    #group-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+
+    .btn:nth-child(2) /* On prend le deuxième bloc élément */
+    {
+        align-self: flex-end; /* Seul ce bloc sera aligné à la fin */
+    }
+    
+    .btnClassement {
+        background-color: red;
+    }
+}

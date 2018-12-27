@@ -1,0 +1,29 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title class="title">
+        Option
+      </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        <ion-item>
+          <ion-label>Thème</ion-label>
+          <ion-select [(ngModel)]="tr" (ionChange)="switchTheme(tr)" cancelText="quitter" okText="valider">
+            <ion-option *ngFor="let tr of themeResult" [value]="tr.title" [selected]="tr.title == 'naruto'">{{tr.title}}</ion-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+    <ion-list>
+        <ion-item>
+          <ion-label>Niveau</ion-label>
+          <ion-select [(ngModel)]="l" (ionChange)="switchLevel(l)" cancelText="Quitter" okText="Valider">
+            <ion-option *ngFor="let l of selectLevel" [value]="l.level" [selected]="l.level == 'Facile'"> {{l.level}}</ion-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+      <div *ngIf="quest">
+          <p>{{quest.question}}</p>
+      </div>
+</ion-content>

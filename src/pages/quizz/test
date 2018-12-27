@@ -1,0 +1,87 @@
+temp = 0;
+flag = boolean = true;
+var tab = new Array(10);
+tab[0] = Math.floor(Math.random() * Math.floor(10))
+
+for(var i = 0; i<tab.length; i++){
+  
+  temp = Math.floor(Math.random() * Math.floor(10));
+
+  for(var j = 0; j<tab.length; j++){
+    
+    if(temp != tab[j]){
+      
+       flag = true;
+      
+    }else {
+        
+      flag = false;
+      break;
+    }
+  }
+  
+  if(flag === true){
+   
+   tab[i] = temp;
+  
+  }else {
+    i--;
+    }
+  }
+
+var i=0;
+while(i<tab.length -1){
+  i++
+ console.log(tab[i])
+}
+  
+  console.log(getRandom(10))
+
+
+/*function getRandomId(max){
+  var test = new Array(max);
+  var temp = 0;
+  flag = boolean = true;
+  test[0] = Math.floor(Math.random() * Math.floor(max))
+
+   for(var i = 0; i<test.length; i++){
+       temp =  Math.floor(Math.random() * Math.floor(max))
+  
+     for(var j = 0; j<test.length; j++){
+       if(temp != test[j]){
+         flag = true;
+       }else{
+         flag = false;
+         console.log("pas différent");
+         break;
+       }
+     }
+     if(flag === true){
+       test.push(temp)
+       console.log(temp)
+        return temp;
+     } else {
+     i--;
+     }
+}
+
+}
+  console.log(getRandomId(10))*/
+
+ trueResponse() {
+  let trueResponse = this.QuizzId(this.randomNumber);
+     if(trueResponse == this.randomNumber && this.quizzResults.response == this.response){
+      this.trueStatus = !this.trueStatus;
+      if(this.flagJoker == true){
+
+        this.score = this.score + 0.5;
+        
+      }else {
+        
+        this.score = this.score + 1;
+      }
+     }else{
+       this.falseStatus = !this.falseStatus;
+      this.lifePoint();
+     }
+}

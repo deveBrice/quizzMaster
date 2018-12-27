@@ -1,0 +1,50 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<ion-header>
+    <ion-navbar>
+      <ion-title class="title">
+        Jouer
+      </ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content *ngIf="quizzResult">
+ <div class="fullScreen">
+    <div class="displayQuizz">
+      <div class="scoreAndLife"><strong>Score:<span> {{score}}/10</span></strong></div>
+      <div class="scoreAndLife"><span *ngFor="let rdk of resultDisplayJoker"><img src="{{rdk.jokerImg}}"></span></div>
+      <div class="scoreAndLife">
+    Vie: <span *ngFor="let rdl of resultDisplayLife">
+           <i class="{{rdl.lifeIcon}}" aria-hidden="true"></i>
+        </span>
+      </div>
+    </div>
+    <div class="displayQuizz">
+         <div class="question">
+              <strong><p>{{quizzResult.question}}</p></strong>
+              <img  class="boolPic" *ngIf="trueStatus" src="{{quizzResult.truePicture}}" alt="">
+              <img  class="boolPic" id="pictureSize" *ngIf="falseStatus" src="{{quizzResult.falsePicture}}" alt="">
+         </div>
+        <div class="next-button">
+             <button *ngIf="trueStatus || falseStatus" ion-button full (click)="getNextQuestion()">Suivant</button>
+        </div>
+        <div class="textResponse">
+             <p class="trt" *ngIf="trueStatus">{{quizzResult.textResponseTrue}}</p>
+             <p class="trf" *ngIf="falseStatus">{{quizzResult.textResponseFalse}}</p>
+        </div>
+        <div class="jokerText">
+            <p *ngIf="flagJoker">{{quizzResult.jokerResponse}}</p>
+        </div>
+
+    </div>
+</div>  
+</ion-content>
+<ion-footer *ngIf="quizzResult">
+  <ion-toolbar>    
+      <div class="group-button">          
+        <button class="btnTrue" ion-button large (click)="trueResponse(quizzResult.id)">Vrai </button>
+        <button class="past" ion-button large (click)="pastQuestion()">Passer</button>
+        <button class="btnFalse" ion-button large (click)="falseResponse(quizzResult.id)">Faux</button>    
+    </div>   
+  </ion-toolbar>
+</ion-footer>
+
+
