@@ -12,7 +12,6 @@ export class ThemeHttpProxy implements IThemeRepository {
         .map((result)=>{
             let themes: Array<Theme>;
             themes = result.json().theme.mangas;
-            console.log(themes)
             return themes;
         })
     }

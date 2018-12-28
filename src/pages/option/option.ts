@@ -30,7 +30,6 @@ quest: any
    this.quizzService.questions.filter((row)=>{
      row.easy.filter((subRow)=>{
        this.quest = subRow
-       console.log(this.quest)
      })
    })
    
@@ -45,7 +44,6 @@ quest: any
     this.themeService.findAllTheme()
     .subscribe((theme: Array<Theme>)=>{
       this.themeResult = theme;
-      console.log(this.themeResult)
     })  
   }
 

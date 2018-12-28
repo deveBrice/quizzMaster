@@ -59,10 +59,6 @@ this.randomNumbers = this.getRandomNumber(this.resultNumberQuestion);
      subRow.id == this.randomNumbers[this.i],  
       ).map(result => this.quizzResult = result)
   })
-
-  
-console.log(this.randomNumbers) 
-console.log(this.quizzResult)
 }
 
 getRandomNumber(nq: number){
@@ -101,9 +97,7 @@ getRandomNumber(nq: number){
 getNumberQuestion(){
    this.quizzService.questions.filter((row)=>{
       this.numberQuestion = row.numberQuestion;
-      console.log(this.numberQuestion)
-   })
-   
+   })  
  return this.numberQuestion;
 } 
 
@@ -114,8 +108,6 @@ getDisplayLife(indexLife: number){
     this.lifeTab = row.lifeTab;
     
      this.resultRemoveLife = this.lifeTab.slice(0, indexLife);
-     
-     console.log(this.resultRemoveLife)
   })
     return this.resultRemoveLife;
 }
@@ -125,7 +117,6 @@ getDisplayJoker(indexJoker: number){
   this.quizzService.questions.filter((row)=>{
     this.jokerTab = row.jokerTab;
      this.resultJokerRemove = this.jokerTab.slice(0, indexJoker)
-     console.log(this.resultJokerRemove)
   })
   return this.resultJokerRemove;
 
@@ -149,9 +140,7 @@ trueResponse(currentId: number){
   let number = this.randomNumbers[this.i];
   
     if(currentId == number && this.quizzResult.response == this.response){
-      console.log(number)
       this.trueStatus =! this.trueStatus;
-      console.log(this.score)
       if(this.flagJoker == true){
 
       
@@ -168,7 +157,6 @@ trueResponse(currentId: number){
       this.falseStatus =! this.falseStatus;
       
       this.resultNumberLife = this.resultNumberLife -1;
-      console.log(this.resultNumberLife)
       this.resultDisplayLife = this.getDisplayLife(this.resultNumberLife);
     
       this.gameOver(this.resultNumberLife);
@@ -180,7 +168,6 @@ trueResponse(currentId: number){
 falseResponse(currentId: number) {
 
  let number = this.randomNumbers[this.i];
- console.log(this.i);
   if(currentId == number && this.quizzResult.response != this.response){
     this.trueStatus = !this.trueStatus; 
     
@@ -198,7 +185,6 @@ falseResponse(currentId: number) {
     }else{
       this.falseStatus = !this.falseStatus;
       this.resultNumberLife = this.resultNumberLife -1;
-      console.log(this.resultNumberLife);
       this.resultDisplayLife = this.getDisplayLife(this.resultNumberLife)
       this.gameOver(this.resultNumberLife);
       this.flagJoker = false;
@@ -244,7 +230,6 @@ getNextQuestion(){
     
     this.resultJokerNumber = this.resultJokerNumber -1;
     this.resultDisplayJoker = this.getDisplayJoker(this.resultJokerNumber);
-    console.log(this.resultDisplayJoker)
     }
   }
 
