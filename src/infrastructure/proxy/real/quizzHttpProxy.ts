@@ -9,8 +9,6 @@ export class QuizzHttpProxy implements IQuizzRepository {
 
    constructor(private http: Http){}
   
-   quizz = "assets/api/quizz.json";
-   
    getAllQuizz(id: number): Observable<Array<Quizz>>{
        return this.http.get("assets/api/quizz.json")
        .map((result)=>{
