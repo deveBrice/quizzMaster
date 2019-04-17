@@ -83,14 +83,15 @@ var HomePage = /** @class */ (function () {
         modal.present();
     };
     HomePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <!--<ion-buttons start>\n      <button ion-button icon-only menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>-->\n    <ion-title class="title">\n      Accueil\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <button class="homeBtn" ion-button large full (click)="openQuizzPage()">Jouer</button>\n    <button class="homeBtn" ion-button large full>Classement</button>\n    <button class="homeBtn" ion-button large full>Proposer une question</button>  \n</ion-content>\n<ion-footer>\n  <ion-toolbar>\n    <button class="btn2" ion-button large full (click)="openModalOptionPage()">Option</button>   \n  </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\pages\home\home.html"*/,
-            styleUrls: ['/home.scss']
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-home',template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title class="title">\n\n      Accueil\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <button class="btn" ion-button large full (click)="openPageQuizz()">Jouer</button>\n\n    <button class="btn" ion-button large full>Classement</button>\n\n    <button class="btn" ion-button large full>Proposer une question</button>   \n\n</ion-content>\n\n<ion-footer>\n\n  <ion-toolbar>\n\n    <button class="btn2" ion-button large full (click)="openPageOption()">Option</button>   \n\n  </ion-toolbar>\n\n</ion-footer>\n\n'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\pages\home\home.html"*/,
+            styleUrls: ['./home.scss']
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_5__domain_service_quizzService__["a" /* QuizzService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__domain_service_quizzService__["a" /* QuizzService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__domain_service_mangaListService__["a" /* MangaListService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__domain_service_mangaListService__["a" /* MangaListService */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */]) === "function" && _f || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__domain_service_quizzService__["a" /* QuizzService */], typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */]) === "function" && _a || Object, __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__domain_service_mangaListService__["a" /* MangaListService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__domain_service_mangaListService__["a" /* MangaListService */]) === "function" && _b || Object, __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */]])
     ], HomePage);
     return HomePage;
-    var _a, _b, _c, _d, _e, _f;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=home.js.map
@@ -131,7 +132,7 @@ var MangaListService = /** @class */ (function () {
         });
     };
     MangaListService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
     ], MangaListService);
     return MangaListService;
@@ -226,14 +227,14 @@ var ScoreFinalePage = /** @class */ (function () {
         this.loader.dismiss();
     };
     ScoreFinalePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-score-finale',template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\pages\scoreFinale\scoreFinale.html"*/'<script src="https://code.iconify.design/1/1.0.0-rc7/iconify.min.js"></script>\n\n<ion-header>\n\n    <ion-navbar>\n\n      <ion-title class="title">\n\n        ScoreFinale\n\n      </ion-title>\n\n       <!--<ion-buttons left>\n\n            <button ion-button (click)="dismiss()">\n\n                <span ion-text color="primary" showWhen="ios">Cancel</span>\n\n                <ion-icon name="arrow-round-back" showWhen="android,windows"></ion-icon>\n\n            </button>\n\n        </ion-buttons>-->\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <div class="fullScreen">\n\n    <div class="content">\n\n      <div class="scoreFinale">\n\n        <div class="progress-timer" *ngFor="let sfa of finalScoreArray"> \n\n           <div class="timer">\n\n             {{sfa.score}}/10\n\n           </div>\n\n           <round-progress [current]="sfa.score" [max]="10" [color]="\'#45ccce\'" [radius]="100"  [rounded]="true" [stroke]="stroke" [responsive]="false" [animationDelay]="0"></round-progress>\n\n          </div>\n\n        <!--  <div class="congratulation-picture">\n\n            <img class="picture-dimention" src="https://i.ibb.co/Np9Bws7/ribbon-a.png">\n\n            <img class="picture-dimention" src="https://i.ibb.co/F7tbYQ3/ribbon-b.png">     \n\n          </div>-->\n\n    </div> \n\n   <div class="scoreFinale">\n\n    <div id="group-button">\n\n        <button class="btn" ion-button small>Partager</button>\n\n        <button class="btn" ion-button small>Publier</button>\n\n        <button class="btn" ion-button small (click)="backToHome()">Rejouer</button>\n\n    </div>\n\n   </div>\n\n \n\n  </div>\n\n</div>\n\n</ion-content>\n\n<ion-footer>\n\n    <ion-toolbar>\n\n        <button class="btnClassement" ion-button large full (click)="openPageClassement()">Classement</button>   \n\n    </ion-toolbar>\n\n</ion-footer>'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\pages\scoreFinale\scoreFinale.html"*/,
-            styleUrls: ['/src/pages/scoreFinale/scoreFinale.scss']
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-score-finale',template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\pages\scoreFinale\scoreFinale.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <ion-title class="title">\n\n        ScoreFinale\n\n      </ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <div class="content">\n\n    <div class="scoreFinale">\n\n        <h1>Score Finale</h1>\n\n        <div><strong><p><span>{{scoreFinale}}/10</span></p></strong></div>\n\n    </div> \n\n    <div id="group-button">\n\n        <button class="btn" ion-button small>Partager</button>\n\n        <button class="btn" ion-button small>Publier</button>\n\n        <button class="btn" ion-button small (click)="backToHome()">Rejouer</button>\n\n    </div>\n\n</div>\n\n</ion-content>\n\n<ion-footer>\n\n    <ion-toolbar>\n\n        <button class="btnClassement" ion-button large full (click)="openPageClassement()">Classement</button>   \n\n    </ion-toolbar>\n\n</ion-footer>'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\pages\scoreFinale\scoreFinale.html"*/,
+            styleUrls: ['./scoreFinale.scss']
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */]) === "function" && _e || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */]])
     ], ScoreFinalePage);
     return ScoreFinalePage;
-    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=scoreFinale.js.map
@@ -389,18 +390,15 @@ var OptionPage = /** @class */ (function () {
         this.viewCtrl.dismiss();
     };
     OptionPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-option',template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\pages\option\option.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-buttons left>\n\n        <button ion-button icon-only (click)="dismissModal()">\n\n          <ion-icon name="arrow-back"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    <ion-title>\n\n      Option\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<!--<ion-content>\n\n  <ion-list>\n\n        <ion-item>\n\n          <ion-label>Manga</ion-label>\n\n          <ion-select [(ngModel)]="rml" [disabled]="connectivityFlag" (ionChange)="switchManga(rml)" cancelText="quitter" okText="valider">\n\n            <ion-option name="test" *ngFor="let rml of resultMangaList" [value]="rml.title" [selected]="rml.title == \'Naruto\'">{{rml.title}}</ion-option>\n\n          </ion-select>\n\n        </ion-item>\n\n      </ion-list>\n\n\n\n      <ion-list>\n\n        <ion-item>\n\n            <ion-label>Niveau</ion-label>\n\n              <ion-select [(ngModel)]="sl" (ionChange)="switchLevel(sl)"  cancelText="quitter" okText="valider">\n\n                 <ion-option *ngFor="let sl of resultSelectLevel"  [value]="sl.level"      [selected]="sl.level == \'Facile\'"> {{sl.level}}</ion-option>\n\n             </ion-select>\n\n        </ion-item>\n\n      </ion-list>\n\n</ion-content>-->\n\n\n\n<ion-content>\n\n<form [formGroup]="option">\n\n  <ion-list>\n\n        <ion-item>\n\n          <ion-label floating>Sélectionne le manga<span> *</span></ion-label>\n\n            <ion-select formControlName="Mangas" (ionChange)="switchManga(rml)" okText="sélectionner" cancelText="annuler">\n\n                <ion-option *ngFor="let rml of resultMangaList" [value]="rml.title"       >{{rml.title}}</ion-option>\n\n          </ion-select>\n\n        </ion-item>\n\n          <ion-item>\n\n            <ion-label floating>Sélectionne le niveau<span> *</span></ion-label>\n\n              <ion-select formControlName="Level" (ionChange)="switchLevel(sl)" okText="sélectionner" cancelText="annuler">\n\n                 <ion-option *ngFor="let sl of resultSelectLevel" [value]="sl.level"      > {{sl.level}}</ion-option>\n\n             </ion-select>\n\n        </ion-item>\n\n   </ion-list>\n\n</form>\n\n</ion-content>\n\n<ion-footer>\n\n  <ion-toolbar>\n\n         <button class="btn" ion-button large full type="submit" [disabled]="!option.valid" (click)="dismiss()">Valider</button> \n\n  </ion-toolbar>\n\n</ion-footer>\n\n'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\pages\option\option.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__domain_service_quizzService__["a" /* QuizzService */],
-            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_3__domain_service_mangaListService__["a" /* MangaListService */],
-            __WEBPACK_IMPORTED_MODULE_4__domain_service_selectLevelService__["a" /* SelectLevelService */],
-            __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */],
-            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["j" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavController */], typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__domain_service_mangaListService__["a" /* MangaListService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__domain_service_mangaListService__["a" /* MangaListService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__domain_service_selectLevelService__["a" /* SelectLevelService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__domain_service_selectLevelService__["a" /* SelectLevelService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */]) === "function" && _c || Object, __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["j" /* ViewController */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* LoadingController */]])
     ], OptionPage);
     return OptionPage;
+    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=option.js.map
@@ -441,7 +439,7 @@ var SelectLevelService = /** @class */ (function () {
         });
     };
     SelectLevelService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
     ], SelectLevelService);
     return SelectLevelService;
@@ -806,11 +804,11 @@ var QuizzPage = /** @class */ (function () {
         alert.present();
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */]),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */]),
         __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */]) === "function" && _a || Object)
     ], QuizzPage.prototype, "nav", void 0);
     QuizzPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-quizz',template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\pages\quizz\quizz.html"*/'<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">\n\n<ion-header *ngIf="displayQuizz">\n\n    <ion-navbar>\n\n     <ion-buttons end>\n\n        <button ion-button icon-only menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <ion-buttons left>\n\n        <button ion-button icon-only (click)="dismissModal()">\n\n          <ion-icon name="arrow-back"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <ion-title class="title">Quizz {{displayQuizz.name}}({{displayQuizz.level}})</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content *ngIf="quizzResult">\n\n <div class="fullScreen">\n\n    <div class="displayQuizz">\n\n      <div class="scoreAndLife"><strong>Score:<span> {{score}}/10</span></strong></div>\n\n        <div class="scoreAndLife">\n\n          <div class="joker">\n\n            <div *ngFor="let rdk of resultDisplayJoker"><img src="{{rdk.jokerImg}}"></div>\n\n          </div>\n\n         <div class="progress-timer" *ngFor="let act of getArrayTimer()"> \n\n           <div class="timer">\n\n             {{getFormatTimer(act.currentTimer,\'s\')}}\n\n           </div>\n\n           <round-progress [current]="act.currentTimer" [max]="act.resetTimer" [color]="\'#45ccce\'" [radius]="70" [stroke]="stroke"  [rounded]="true" [responsive]="false" [animation]="\'easeOutCubic\'" [animationDelay]="0" ></round-progress>\n\n          </div>\n\n         </div>\n\n        <div class="scoreAndLife">\n\n    Vie: <span *ngFor="let rdl of resultDisplayLife">\n\n           <i class="{{rdl.lifeIcon}}" aria-hidden="true"></i>\n\n        </span>\n\n      </div>\n\n    </div>\n\n    <div class="displayQuizz">\n\n      <div class="textResponse">\n\n             <strong><p class="trt" *ngIf="trueStatus">{{quizzResult.textResponseTrue}}</p></strong>\n\n             <strong><p class="trf" *ngIf="falseStatus">{{quizzResult.textResponseFalse}}</p></strong>\n\n             <strong><p class="trf" *ngIf="timeOutResponse">Temps écoulé!!</p></strong>\n\n        </div>\n\n         <div class="question">\n\n              <strong><p>{{quizzResult.question}}</p></strong>\n\n              \n\n              <img  class="boolPic" *ngIf="trueStatus" src="{{quizzResult.truePicture}}" alt="">\n\n              <img  class="boolPic" id="pictureSize" *ngIf="falseStatus" src="{{quizzResult.falsePicture}}" alt="">\n\n         </div>\n\n        <div class="next-button">\n\n             <button *ngIf="trueStatus || falseStatus || timeOutResponse"  ion-button full (click)="getNextQuestion()">Suivant</button>\n\n\n\n        </div>\n\n        <div class="rightAnswer">\n\n          <p class="trf" *ngIf="falseStatus || timeOutResponse">{{quizzResult.rightAnswer}}</p>\n\n        </div>\n\n        <div class="jokerText">\n\n            <p *ngIf="flagJoker">{{quizzResult.jokerResponse}}</p>\n\n        </div>\n\n    </div>\n\n</div>  \n\n</ion-content>\n\n<ion-footer *ngIf="quizzResult">\n\n  <ion-toolbar>    \n\n      <div class="group-button">          \n\n        <button class="btnTrue" [disabled]="trueStatus || falseStatus || timeOutResponse" ion-button large (click)="trueResponse(quizzResult.id)">Vrai </button>\n\n        <button class="past" [disabled]="trueStatus || falseStatus || timeOutResponse" ion-button large (click)="pastQuestion()">Passer</button>\n\n        <button class="btnFalse" [disabled]="trueStatus || falseStatus || timeOutResponse" name="false" ion-button large (click)="falseResponse(quizzResult.id)">Faux</button>    \n\n    </div>   \n\n  </ion-toolbar>\n\n</ion-footer>\n\n\n\n\n\n\n\n'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\pages\quizz\quizz.html"*/,
             styleUrls: ['/quizz.scss']
         }),
@@ -858,9 +856,6 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__domain_service_mangaListService__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__domain_service_apiUrlsService__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__domain_service_selectLevelService__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__angular_forms__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_angular_svg_round_progressbar__ = __webpack_require__(415);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_angular_svg_round_progressbar___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_angular_svg_round_progressbar__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -882,13 +877,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-
-
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */],
                 __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
@@ -897,10 +890,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_5__pages_scoreFinale_scoreFinale__["a" /* ScoreFinalePage */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["BrowserModule"],
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_10__angular_http__["b" /* HttpModule */],
-                __WEBPACK_IMPORTED_MODULE_15__angular_forms__["f" /* ReactiveFormsModule */],
-                __WEBPACK_IMPORTED_MODULE_16_angular_svg_round_progressbar__["RoundProgressModule"],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {}, {
                     links: []
                 })
@@ -1242,7 +1233,7 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -1353,10 +1344,11 @@ var QuizzService = /** @class */ (function () {
         }
     };
     QuizzService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_2__apiUrlsService__["a" /* ApiUrlsService */]])
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */], typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__apiUrlsService__["a" /* ApiUrlsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__apiUrlsService__["a" /* ApiUrlsService */]) === "function" && _a || Object])
     ], QuizzService);
     return QuizzService;
+    var _a;
 }());
 
 //# sourceMappingURL=quizzService.js.map
@@ -1400,7 +1392,7 @@ var ApiUrlsService = /** @class */ (function () {
         });
     };
     ApiUrlsService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
     ], ApiUrlsService);
     return ApiUrlsService;

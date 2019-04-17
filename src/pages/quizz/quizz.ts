@@ -114,8 +114,7 @@ export class QuizzPage implements OnInit {
   getNumberQuestion(){
    this.quizzService.quizzContainer.filter((row)=>{
       this.numberQuestion = row.numberQuestion;
-   })
-   
+   })  
  return this.numberQuestion;
 }
 
