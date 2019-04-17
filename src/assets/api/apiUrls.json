@@ -1,0 +1,15 @@
+{
+	"apiUrls": [{
+		"name": "Naruto",
+    "api": "https://api.myjson.com/bins/djse8"
+	}, {
+		"name": "One-Piece",
+    "api": "none"
+	}, {
+		"name": "Bleach",
+    "api": "none"
+	}, {
+		"name": "FairyTail",
+    "api": "https://api.myjson.com/bins/1dv8ao"
+	}]
+}
