@@ -1,26 +1,56 @@
 <ion-header>
-    <ion-navbar>
-      <ion-title class="title">
-        Option
-      </ion-title>
-    </ion-navbar>
+  <ion-navbar>
+    <ion-buttons left>
+        <button ion-button icon-only (click)="dismissModal()">
+          <ion-icon name="arrow-back"></ion-icon>
+        </button>
+      </ion-buttons>
+    <ion-title>
+      Option
+    </ion-title>
+  </ion-navbar>
 </ion-header>
 
+<!--<ion-content>
+  <ion-list>
+        <ion-item>
+          <ion-label>Manga</ion-label>
+          <ion-select [(ngModel)]="rml" [disabled]="connectivityFlag" (ionChange)="switchManga(rml)" cancelText="quitter" okText="valider">
+            <ion-option name="test" *ngFor="let rml of resultMangaList" [value]="rml.title" [selected]="rml.title == 'Naruto'">{{rml.title}}</ion-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+
+      <ion-list>
+        <ion-item>
+            <ion-label>Niveau</ion-label>
+              <ion-select [(ngModel)]="sl" (ionChange)="switchLevel(sl)"  cancelText="quitter" okText="valider">
+                 <ion-option *ngFor="let sl of resultSelectLevel"  [value]="sl.level"      [selected]="sl.level == 'Facile'"> {{sl.level}}</ion-option>
+             </ion-select>
+        </ion-item>
+      </ion-list>
+</ion-content>-->
+
 <ion-content>
-    <ion-list>
+<form [formGroup]="option">
+  <ion-list>
         <ion-item>
-          <ion-label>Thème</ion-label>
-          <ion-select [(ngModel)]="tr" (ionChange)="switchTheme(tr)" cancelText="quitter" okText="valider">
-            <ion-option *ngFor="let tr of themeResult" [value]="tr.title" [selected]="tr.title == 'naruto'">{{tr.title}}</ion-option>
+          <ion-label floating>Sélectionne le manga<span> *</span></ion-label>
+            <ion-select formControlName="Mangas" (ionChange)="switchManga(rml)" okText="sélectionner" cancelText="annuler">
+                <ion-option *ngFor="let rml of resultMangaList" [value]="rml.title"       >{{rml.title}}</ion-option>
           </ion-select>
         </ion-item>
-      </ion-list>
-    <ion-list>
-        <ion-item>
-          <ion-label>Niveau</ion-label>
-          <ion-select [(ngModel)]="l" (ionChange)="switchLevel(l)" cancelText="Quitter" okText="Valider">
-            <ion-option *ngFor="let l of selectLevel" [value]="l.level" [selected]="l.level == 'Facile'"> {{l.level}}</ion-option>
-          </ion-select>
+          <ion-item>
+            <ion-label floating>Sélectionne le niveau<span> *</span></ion-label>
+              <ion-select formControlName="Level" (ionChange)="switchLevel(sl)" okText="sélectionner" cancelText="annuler">
+                 <ion-option *ngFor="let sl of resultSelectLevel" [value]="sl.level"      > {{sl.level}}</ion-option>
+             </ion-select>
         </ion-item>
-      </ion-list>
+   </ion-list>
+</form>
 </ion-content>
+<ion-footer>
+  <ion-toolbar>
+         <button class="btn" ion-button large full type="submit" [disabled]="!option.valid" (click)="dismiss()">Valider</button> 
+  </ion-toolbar>
+</ion-footer>
