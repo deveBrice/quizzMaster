@@ -1,1 +1,1406 @@
-webpackJsonp([0],{127:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=127},162:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=162},191:function(l,n,u){"use strict";function e(l){return new J(l)}function t(l){return new S(l)}function i(l){return new O(l)}function a(l){return new C(l)}function s(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,2,"ion-nav",[],null,null,null,E.b,E.a)),Y._14(6144,null,H.a,null,[K.a]),Y.Y(2,4374528,null,0,K.a,[[2,ll.a],[2,nl.a],ul.a,el.a,tl.a,Y.j,Y.u,Y.z,Y.i,il.l,al.a,[2,sl.a],ol.a,Y.k],{root:[0,"root"]},null),(l()(),Y._18(-1,null,["\n"]))],function(l,n){l(n,2,0,n.component.rootPage)},null)}function o(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),Y.Y(1,16384,null,0,fl.a,[el.a,Y.j,Y.z,[2,ll.a]],null,null),(l()(),Y._18(-1,null,["\n  "])),(l()(),Y.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,_l.b,_l.a)),Y.Y(4,49152,null,0,hl.a,[ul.a,[2,ll.a],[2,nl.a],el.a,Y.j,Y.z],null,null),(l()(),Y._18(-1,3,["\n    "])),(l()(),Y.Z(6,0,null,3,2,"ion-title",[["class","title"]],null,null,null,pl.b,pl.a)),Y.Y(7,49152,null,0,gl.a,[el.a,Y.j,Y.z,[2,bl.a],[2,hl.a]],null,null),(l()(),Y._18(-1,0,["\n      Accueil\n    "])),(l()(),Y._18(-1,3,["\n  "])),(l()(),Y._18(-1,null,["\n"])),(l()(),Y._18(-1,null,["\n\n"])),(l()(),Y.Z(12,0,null,null,14,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,dl.b,dl.a)),Y.Y(13,4374528,null,0,ml.a,[el.a,tl.a,ol.a,Y.j,Y.z,ul.a,zl.a,Y.u,[2,ll.a],[2,nl.a]],null,null),(l()(),Y._18(-1,1,["\n    "])),(l()(),Y.Z(15,0,null,1,2,"button",[["class","btn"],["full",""],["ion-button",""],["large",""]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.openPageQuizz()&&e}return e},vl.b,vl.a)),Y.Y(16,1097728,null,0,kl.a,[[8,""],el.a,Y.j,Y.z],{large:[0,"large"],full:[1,"full"]},null),(l()(),Y._18(-1,0,["Jouer"])),(l()(),Y._18(-1,1,["\n    "])),(l()(),Y.Z(19,0,null,1,2,"button",[["class","btn"],["full",""],["ion-button",""],["large",""]],null,null,null,vl.b,vl.a)),Y.Y(20,1097728,null,0,kl.a,[[8,""],el.a,Y.j,Y.z],{large:[0,"large"],full:[1,"full"]},null),(l()(),Y._18(-1,0,["Classement"])),(l()(),Y._18(-1,1,["\n    "])),(l()(),Y.Z(23,0,null,1,2,"button",[["class","btn"],["full",""],["ion-button",""],["large",""]],null,null,null,vl.b,vl.a)),Y.Y(24,1097728,null,0,kl.a,[[8,""],el.a,Y.j,Y.z],{large:[0,"large"],full:[1,"full"]},null),(l()(),Y._18(-1,0,["Proposer une question"])),(l()(),Y._18(-1,1,["   \n"])),(l()(),Y._18(-1,null,["\n"])),(l()(),Y.Z(28,0,null,null,10,"ion-footer",[],null,null,null,null,null)),Y.Y(29,16384,null,0,yl.a,[el.a,Y.j,Y.z,[2,ll.a]],null,null),(l()(),Y._18(-1,null,["\n  "])),(l()(),Y.Z(31,0,null,null,6,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,jl.b,jl.a)),Y.Y(32,49152,null,0,bl.a,[el.a,Y.j,Y.z],null,null),(l()(),Y._18(-1,3,["\n    "])),(l()(),Y.Z(34,0,null,3,2,"button",[["class","btn2"],["full",""],["ion-button",""],["large",""]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.openPageOption()&&e}return e},vl.b,vl.a)),Y.Y(35,1097728,null,0,kl.a,[[8,""],el.a,Y.j,Y.z],{large:[0,"large"],full:[1,"full"]},null),(l()(),Y._18(-1,0,["Option"])),(l()(),Y._18(-1,3,["   \n  "])),(l()(),Y._18(-1,null,["\n"])),(l()(),Y._18(-1,null,["\n"]))],function(l,n){l(n,16,0,"","");l(n,20,0,"","");l(n,24,0,"","");l(n,35,0,"","")},function(l,n){l(n,3,0,Y._11(n,4)._hidden,Y._11(n,4)._sbPadding);l(n,12,0,Y._11(n,13).statusbarPadding,Y._11(n,13)._hasRefresher);l(n,31,0,Y._11(n,32)._sbPadding)})}function r(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),Y.Z(1,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null))],null,function(l,n){l(n,1,0,Y._2(1,"",n.context.$implicit.jokerImg,""))})}function c(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,3,"span",[],null,null,null,null,null)),(l()(),Y._18(-1,null,["\n           "])),(l()(),Y.Z(2,0,null,null,0,"i",[["aria-hidden","true"]],[[8,"className",0]],null,null,null,null)),(l()(),Y._18(-1,null,["\n        "]))],null,function(l,n){l(n,2,0,Y._2(1,"",n.context.$implicit.lifeIcon,""))})}function f(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,0,"img",[["alt",""],["class","boolPic"]],[[8,"src",4]],null,null,null,null))],null,function(l,n){l(n,0,0,Y._2(1,"",n.component.quizzResult.truePicture,""))})}function _(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,0,"img",[["alt",""],["class","boolPic"],["id","pictureSize"]],[[8,"src",4]],null,null,null,null))],null,function(l,n){l(n,0,0,Y._2(1,"",n.component.quizzResult.falsePicture,""))})}function h(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,2,"button",[["full",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.getNextQuestion()&&e}return e},vl.b,vl.a)),Y.Y(1,1097728,null,0,kl.a,[[8,""],el.a,Y.j,Y.z],{full:[0,"full"]},null),(l()(),Y._18(-1,0,["Suivant"]))],function(l,n){l(n,1,0,"")},null)}function p(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,1,"p",[["class","trt"]],null,null,null,null,null)),(l()(),Y._18(1,null,["",""]))],null,function(l,n){l(n,1,0,n.component.quizzResult.textResponseTrue)})}function g(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,1,"p",[["class","trf"]],null,null,null,null,null)),(l()(),Y._18(1,null,["",""]))],null,function(l,n){l(n,1,0,n.component.quizzResult.textResponseFalse)})}function b(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),Y._18(1,null,["",""]))],null,function(l,n){l(n,1,0,n.component.quizzResult.jokerResponse)})}function d(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,61,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,dl.b,dl.a)),Y.Y(1,4374528,null,0,ml.a,[el.a,tl.a,ol.a,Y.j,Y.z,ul.a,zl.a,Y.u,[2,ll.a],[2,nl.a]],null,null),(l()(),Y._18(-1,1,["\n "])),(l()(),Y.Z(3,0,null,1,57,"div",[["class","fullScreen"]],null,null,null,null,null)),(l()(),Y._18(-1,null,["\n    "])),(l()(),Y.Z(5,0,null,null,17,"div",[["class","displayQuizz"]],null,null,null,null,null)),(l()(),Y._18(-1,null,["\n      "])),(l()(),Y.Z(7,0,null,null,4,"div",[["class","scoreAndLife"]],null,null,null,null,null)),(l()(),Y.Z(8,0,null,null,3,"strong",[],null,null,null,null,null)),(l()(),Y._18(-1,null,["Score:"])),(l()(),Y.Z(10,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),Y._18(11,null,[" ","/10"])),(l()(),Y._18(-1,null,["\n      "])),(l()(),Y.Z(13,0,null,null,2,"div",[["class","scoreAndLife"]],null,null,null,null,null)),(l()(),Y.U(16777216,null,null,1,null,r)),Y.Y(15,802816,null,0,Yl.h,[Y.I,Y.F,Y.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Y._18(-1,null,["\n      "])),(l()(),Y.Z(17,0,null,null,4,"div",[["class","scoreAndLife"]],null,null,null,null,null)),(l()(),Y._18(-1,null,["\n    Vie: "])),(l()(),Y.U(16777216,null,null,1,null,c)),Y.Y(20,802816,null,0,Yl.h,[Y.I,Y.F,Y.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Y._18(-1,null,["\n      "])),(l()(),Y._18(-1,null,["\n    "])),(l()(),Y._18(-1,null,["\n    "])),(l()(),Y.Z(24,0,null,null,35,"div",[["class","displayQuizz"]],null,null,null,null,null)),(l()(),Y._18(-1,null,["\n         "])),(l()(),Y.Z(26,0,null,null,11,"div",[["class","question"]],null,null,null,null,null)),(l()(),Y._18(-1,null,["\n              "])),(l()(),Y.Z(28,0,null,null,2,"strong",[],null,null,null,null,null)),(l()(),Y.Z(29,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),Y._18(30,null,["",""])),(l()(),Y._18(-1,null,["\n              "])),(l()(),Y.U(16777216,null,null,1,null,f)),Y.Y(33,16384,null,0,Yl.i,[Y.I,Y.F],{ngIf:[0,"ngIf"]},null),(l()(),Y._18(-1,null,["\n              "])),(l()(),Y.U(16777216,null,null,1,null,_)),Y.Y(36,16384,null,0,Yl.i,[Y.I,Y.F],{ngIf:[0,"ngIf"]},null),(l()(),Y._18(-1,null,["\n         "])),(l()(),Y._18(-1,null,["\n        "])),(l()(),Y.Z(39,0,null,null,4,"div",[["class","next-button"]],null,null,null,null,null)),(l()(),Y._18(-1,null,["\n             "])),(l()(),Y.U(16777216,null,null,1,null,h)),Y.Y(42,16384,null,0,Yl.i,[Y.I,Y.F],{ngIf:[0,"ngIf"]},null),(l()(),Y._18(-1,null,["\n        "])),(l()(),Y._18(-1,null,["\n        "])),(l()(),Y.Z(45,0,null,null,7,"div",[["class","textResponse"]],null,null,null,null,null)),(l()(),Y._18(-1,null,["\n             "])),(l()(),Y.U(16777216,null,null,1,null,p)),Y.Y(48,16384,null,0,Yl.i,[Y.I,Y.F],{ngIf:[0,"ngIf"]},null),(l()(),Y._18(-1,null,["\n             "])),(l()(),Y.U(16777216,null,null,1,null,g)),Y.Y(51,16384,null,0,Yl.i,[Y.I,Y.F],{ngIf:[0,"ngIf"]},null),(l()(),Y._18(-1,null,["\n        "])),(l()(),Y._18(-1,null,["\n        "])),(l()(),Y.Z(54,0,null,null,4,"div",[["class","jokerText"]],null,null,null,null,null)),(l()(),Y._18(-1,null,["\n            "])),(l()(),Y.U(16777216,null,null,1,null,b)),Y.Y(57,16384,null,0,Yl.i,[Y.I,Y.F],{ngIf:[0,"ngIf"]},null),(l()(),Y._18(-1,null,["\n        "])),(l()(),Y._18(-1,null,["\n\n    "])),(l()(),Y._18(-1,null,["\n"])),(l()(),Y._18(-1,1,["  \n"]))],function(l,n){var u=n.component;l(n,15,0,u.resultDisplayJoker);l(n,20,0,u.resultDisplayLife);l(n,33,0,u.trueStatus);l(n,36,0,u.falseStatus);l(n,42,0,u.trueStatus||u.falseStatus);l(n,48,0,u.trueStatus);l(n,51,0,u.falseStatus);l(n,57,0,u.flagJoker)},function(l,n){var u=n.component;l(n,0,0,Y._11(n,1).statusbarPadding,Y._11(n,1)._hasRefresher);l(n,11,0,u.score);l(n,30,0,u.quizzResult.question)})}function m(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,21,"ion-footer",[],null,null,null,null,null)),Y.Y(1,16384,null,0,yl.a,[el.a,Y.j,Y.z,[2,ll.a]],null,null),(l()(),Y._18(-1,null,["\n  "])),(l()(),Y.Z(3,0,null,null,17,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,jl.b,jl.a)),Y.Y(4,49152,null,0,bl.a,[el.a,Y.j,Y.z],null,null),(l()(),Y._18(-1,3,["    \n      "])),(l()(),Y.Z(6,0,null,3,13,"div",[["class","group-button"]],null,null,null,null,null)),(l()(),Y._18(-1,null,["          \n        "])),(l()(),Y.Z(8,0,null,null,2,"button",[["class","btnTrue"],["ion-button",""],["large",""]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;if("click"===n){e=!1!==t.trueResponse(t.quizzResult.id)&&e}return e},vl.b,vl.a)),Y.Y(9,1097728,null,0,kl.a,[[8,""],el.a,Y.j,Y.z],{large:[0,"large"]},null),(l()(),Y._18(-1,0,["Vrai "])),(l()(),Y._18(-1,null,["\n        "])),(l()(),Y.Z(12,0,null,null,2,"button",[["class","past"],["ion-button",""],["large",""]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.pastQuestion()&&e}return e},vl.b,vl.a)),Y.Y(13,1097728,null,0,kl.a,[[8,""],el.a,Y.j,Y.z],{large:[0,"large"]},null),(l()(),Y._18(-1,0,["Passer"])),(l()(),Y._18(-1,null,["\n        "])),(l()(),Y.Z(16,0,null,null,2,"button",[["class","btnFalse"],["ion-button",""],["large",""]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;if("click"===n){e=!1!==t.falseResponse(t.quizzResult.id)&&e}return e},vl.b,vl.a)),Y.Y(17,1097728,null,0,kl.a,[[8,""],el.a,Y.j,Y.z],{large:[0,"large"]},null),(l()(),Y._18(-1,0,["Faux"])),(l()(),Y._18(-1,null,["    \n    "])),(l()(),Y._18(-1,3,["   \n  "])),(l()(),Y._18(-1,null,["\n"]))],function(l,n){l(n,9,0,"");l(n,13,0,"");l(n,17,0,"")},function(l,n){l(n,3,0,Y._11(n,4)._sbPadding)})}function z(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,0,"link",[["crossorigin","anonymous"],["href","https://use.fontawesome.com/releases/v5.2.0/css/all.css"],["integrity","sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"],["rel","stylesheet"]],null,null,null,null,null)),(l()(),Y._18(-1,null,["\n"])),(l()(),Y.Z(2,0,null,null,10,"ion-header",[],null,null,null,null,null)),Y.Y(3,16384,null,0,fl.a,[el.a,Y.j,Y.z,[2,ll.a]],null,null),(l()(),Y._18(-1,null,["\n    "])),(l()(),Y.Z(5,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,_l.b,_l.a)),Y.Y(6,49152,null,0,hl.a,[ul.a,[2,ll.a],[2,nl.a],el.a,Y.j,Y.z],null,null),(l()(),Y._18(-1,3,["\n      "])),(l()(),Y.Z(8,0,null,3,2,"ion-title",[["class","title"]],null,null,null,pl.b,pl.a)),Y.Y(9,49152,null,0,gl.a,[el.a,Y.j,Y.z,[2,bl.a],[2,hl.a]],null,null),(l()(),Y._18(-1,0,["\n        Jouer\n      "])),(l()(),Y._18(-1,3,["\n    "])),(l()(),Y._18(-1,null,["\n"])),(l()(),Y._18(-1,null,["\n"])),(l()(),Y.U(16777216,null,null,1,null,d)),Y.Y(15,16384,null,0,Yl.i,[Y.I,Y.F],{ngIf:[0,"ngIf"]},null),(l()(),Y._18(-1,null,["\n"])),(l()(),Y.U(16777216,null,null,1,null,m)),Y.Y(18,16384,null,0,Yl.i,[Y.I,Y.F],{ngIf:[0,"ngIf"]},null),(l()(),Y._18(-1,null,["\n\n\n"]))],function(l,n){var u=n.component;l(n,15,0,u.quizzResult);l(n,18,0,u.quizzResult)},function(l,n){l(n,5,0,Y._11(n,6)._hidden,Y._11(n,6)._sbPadding)})}function v(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,2,"ion-option",[],null,null,null,null,null)),Y.Y(1,16384,[[4,4]],0,Sl.a,[Y.j],{selected:[0,"selected"],value:[1,"value"]},null),(l()(),Y._18(2,null,["",""]))],function(l,n){l(n,1,0,"naruto"==n.context.$implicit.title,n.context.$implicit.title)},function(l,n){l(n,2,0,n.context.$implicit.title)})}function k(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,2,"ion-option",[],null,null,null,null,null)),Y.Y(1,16384,[[8,4]],0,Sl.a,[Y.j],{selected:[0,"selected"],value:[1,"value"]},null),(l()(),Y._18(2,null,[" ",""]))],function(l,n){l(n,1,0,"Facile"==n.context.$implicit.level,n.context.$implicit.level)},function(l,n){l(n,2,0,n.context.$implicit.level)})}function y(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,4,"div",[],null,null,null,null,null)),(l()(),Y._18(-1,null,["\n          "])),(l()(),Y.Z(2,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),Y._18(3,null,["",""])),(l()(),Y._18(-1,null,["\n      "]))],null,function(l,n){l(n,3,0,n.component.quest.question)})}function j(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),Y.Y(1,16384,null,0,fl.a,[el.a,Y.j,Y.z,[2,ll.a]],null,null),(l()(),Y._18(-1,null,["\n    "])),(l()(),Y.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,_l.b,_l.a)),Y.Y(4,49152,null,0,hl.a,[ul.a,[2,ll.a],[2,nl.a],el.a,Y.j,Y.z],null,null),(l()(),Y._18(-1,3,["\n      "])),(l()(),Y.Z(6,0,null,3,2,"ion-title",[["class","title"]],null,null,null,pl.b,pl.a)),Y.Y(7,49152,null,0,gl.a,[el.a,Y.j,Y.z,[2,bl.a],[2,hl.a]],null,null),(l()(),Y._18(-1,0,["\n        Option\n      "])),(l()(),Y._18(-1,3,["\n    "])),(l()(),Y._18(-1,null,["\n"])),(l()(),Y._18(-1,null,["\n\n"])),(l()(),Y.Z(12,0,null,null,61,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,dl.b,dl.a)),Y.Y(13,4374528,null,0,ml.a,[el.a,tl.a,ol.a,Y.j,Y.z,ul.a,zl.a,Y.u,[2,ll.a],[2,nl.a]],null,null),(l()(),Y._18(-1,1,["\n    "])),(l()(),Y.Z(15,0,null,1,26,"ion-list",[],null,null,null,null,null)),Y.Y(16,16384,null,0,Cl.a,[el.a,Y.j,Y.z,tl.a,il.l,ol.a],null,null),(l()(),Y._18(-1,null,["\n        "])),(l()(),Y.Z(18,0,null,null,22,"ion-item",[["class","item item-block"]],null,null,null,Nl.b,Nl.a)),Y.Y(19,1097728,null,3,Pl.a,[Tl.a,el.a,Y.j,Y.z,[2,xl.a]],null,null),Y._16(335544320,1,{contentLabel:0}),Y._16(603979776,2,{_buttons:1}),Y._16(603979776,3,{_icons:1}),Y.Y(23,16384,null,0,Fl.a,[],null,null),(l()(),Y._18(-1,2,["\n          "])),(l()(),Y.Z(25,0,null,1,2,"ion-label",[],null,null,null,null,null)),Y.Y(26,16384,[[1,4]],0,Ql.a,[el.a,Y.j,Y.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Y._18(-1,null,["Thème"])),(l()(),Y._18(-1,2,["\n          "])),(l()(),Y.Z(29,0,null,3,10,"ion-select",[["cancelText","quitter"],["okText","valider"]],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"ionChange"],[null,"click"],[null,"keyup.space"]],function(l,n,u){var e=!0,t=l.component;if("click"===n){e=!1!==Y._11(l,30)._click(u)&&e}if("keyup.space"===n){e=!1!==Y._11(l,30)._keyup()&&e}if("ngModelChange"===n){e=!1!==(t.tr=u)&&e}if("ionChange"===n){e=!1!==t.switchTheme(t.tr)&&e}return e},Jl.b,Jl.a)),Y.Y(30,1228800,null,1,Ol.a,[ul.a,Tl.a,el.a,Y.j,Y.z,[2,Pl.a],sl.a],{cancelText:[0,"cancelText"],okText:[1,"okText"]},{ionChange:"ionChange"}),Y._16(603979776,4,{options:1}),Y._14(1024,null,Dl.e,function(l){return[l]},[Ol.a]),Y.Y(33,671744,null,0,Dl.h,[[8,null],[8,null],[8,null],[2,Dl.e]],{model:[0,"model"]},{update:"ngModelChange"}),Y._14(2048,null,Dl.f,null,[Dl.h]),Y.Y(35,16384,null,0,Dl.g,[Dl.f],null,null),(l()(),Y._18(-1,null,["\n            "])),(l()(),Y.U(16777216,null,null,1,null,v)),Y.Y(38,802816,null,0,Yl.h,[Y.I,Y.F,Y.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Y._18(-1,null,["\n          "])),(l()(),Y._18(-1,2,["\n        "])),(l()(),Y._18(-1,null,["\n      "])),(l()(),Y._18(-1,1,["\n    "])),(l()(),Y.Z(43,0,null,1,26,"ion-list",[],null,null,null,null,null)),Y.Y(44,16384,null,0,Cl.a,[el.a,Y.j,Y.z,tl.a,il.l,ol.a],null,null),(l()(),Y._18(-1,null,["\n        "])),(l()(),Y.Z(46,0,null,null,22,"ion-item",[["class","item item-block"]],null,null,null,Nl.b,Nl.a)),Y.Y(47,1097728,null,3,Pl.a,[Tl.a,el.a,Y.j,Y.z,[2,xl.a]],null,null),Y._16(335544320,5,{contentLabel:0}),Y._16(603979776,6,{_buttons:1}),Y._16(603979776,7,{_icons:1}),Y.Y(51,16384,null,0,Fl.a,[],null,null),(l()(),Y._18(-1,2,["\n          "])),(l()(),Y.Z(53,0,null,1,2,"ion-label",[],null,null,null,null,null)),Y.Y(54,16384,[[5,4]],0,Ql.a,[el.a,Y.j,Y.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Y._18(-1,null,["Niveau"])),(l()(),Y._18(-1,2,["\n          "])),(l()(),Y.Z(57,0,null,3,10,"ion-select",[["cancelText","Quitter"],["okText","Valider"]],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"ionChange"],[null,"click"],[null,"keyup.space"]],function(l,n,u){var e=!0,t=l.component;if("click"===n){e=!1!==Y._11(l,58)._click(u)&&e}if("keyup.space"===n){e=!1!==Y._11(l,58)._keyup()&&e}if("ngModelChange"===n){e=!1!==(t.l=u)&&e}if("ionChange"===n){e=!1!==t.switchLevel(t.l)&&e}return e},Jl.b,Jl.a)),Y.Y(58,1228800,null,1,Ol.a,[ul.a,Tl.a,el.a,Y.j,Y.z,[2,Pl.a],sl.a],{cancelText:[0,"cancelText"],okText:[1,"okText"]},{ionChange:"ionChange"}),Y._16(603979776,8,{options:1}),Y._14(1024,null,Dl.e,function(l){return[l]},[Ol.a]),Y.Y(61,671744,null,0,Dl.h,[[8,null],[8,null],[8,null],[2,Dl.e]],{model:[0,"model"]},{update:"ngModelChange"}),Y._14(2048,null,Dl.f,null,[Dl.h]),Y.Y(63,16384,null,0,Dl.g,[Dl.f],null,null),(l()(),Y._18(-1,null,["\n            "])),(l()(),Y.U(16777216,null,null,1,null,k)),Y.Y(66,802816,null,0,Yl.h,[Y.I,Y.F,Y.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Y._18(-1,null,["\n          "])),(l()(),Y._18(-1,2,["\n        "])),(l()(),Y._18(-1,null,["\n      "])),(l()(),Y._18(-1,1,["\n      "])),(l()(),Y.U(16777216,null,1,1,null,y)),Y.Y(72,16384,null,0,Yl.i,[Y.I,Y.F],{ngIf:[0,"ngIf"]},null),(l()(),Y._18(-1,1,["\n"])),(l()(),Y._18(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,30,0,"quitter","valider");l(n,33,0,u.tr);l(n,38,0,u.themeResult);l(n,58,0,"Quitter","Valider");l(n,61,0,u.l);l(n,66,0,u.selectLevel);l(n,72,0,u.quest)},function(l,n){l(n,3,0,Y._11(n,4)._hidden,Y._11(n,4)._sbPadding);l(n,12,0,Y._11(n,13).statusbarPadding,Y._11(n,13)._hasRefresher);l(n,29,0,Y._11(n,30)._disabled,Y._11(n,35).ngClassUntouched,Y._11(n,35).ngClassTouched,Y._11(n,35).ngClassPristine,Y._11(n,35).ngClassDirty,Y._11(n,35).ngClassValid,Y._11(n,35).ngClassInvalid,Y._11(n,35).ngClassPending);l(n,57,0,Y._11(n,58)._disabled,Y._11(n,63).ngClassUntouched,Y._11(n,63).ngClassTouched,Y._11(n,63).ngClassPristine,Y._11(n,63).ngClassDirty,Y._11(n,63).ngClassValid,Y._11(n,63).ngClassInvalid,Y._11(n,63).ngClassPending)})}function Z(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),Y.Y(1,16384,null,0,fl.a,[el.a,Y.j,Y.z,[2,ll.a]],null,null),(l()(),Y._18(-1,null,["\n    "])),(l()(),Y.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,_l.b,_l.a)),Y.Y(4,49152,null,0,hl.a,[ul.a,[2,ll.a],[2,nl.a],el.a,Y.j,Y.z],null,null),(l()(),Y._18(-1,3,["\n      "])),(l()(),Y.Z(6,0,null,3,2,"ion-title",[["class","title"]],null,null,null,pl.b,pl.a)),Y.Y(7,49152,null,0,gl.a,[el.a,Y.j,Y.z,[2,bl.a],[2,hl.a]],null,null),(l()(),Y._18(-1,0,["\n        ScoreFinale\n      "])),(l()(),Y._18(-1,3,["\n    "])),(l()(),Y._18(-1,null,["\n"])),(l()(),Y._18(-1,null,["\n"])),(l()(),Y.Z(12,0,null,null,32,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,dl.b,dl.a)),Y.Y(13,4374528,null,0,ml.a,[el.a,tl.a,ol.a,Y.j,Y.z,ul.a,zl.a,Y.u,[2,ll.a],[2,nl.a]],null,null),(l()(),Y._18(-1,1,["\n    "])),(l()(),Y.Z(15,0,null,1,28,"div",[["class","content"]],null,null,null,null,null)),(l()(),Y._18(-1,null,["\n    "])),(l()(),Y.Z(17,0,null,null,10,"div",[["class","scoreFinale"]],null,null,null,null,null)),(l()(),Y._18(-1,null,["\n        "])),(l()(),Y.Z(19,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),Y._18(-1,null,["Score Finale"])),(l()(),Y._18(-1,null,["\n        "])),(l()(),Y.Z(22,0,null,null,4,"div",[],null,null,null,null,null)),(l()(),Y.Z(23,0,null,null,3,"strong",[],null,null,null,null,null)),(l()(),Y.Z(24,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),Y.Z(25,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),Y._18(26,null,["","/10"])),(l()(),Y._18(-1,null,["\n    "])),(l()(),Y._18(-1,null,[" \n    "])),(l()(),Y.Z(29,0,null,null,13,"div",[["id","group-button"]],null,null,null,null,null)),(l()(),Y._18(-1,null,["\n        "])),(l()(),Y.Z(31,0,null,null,2,"button",[["class","btn"],["ion-button",""],["small",""]],null,null,null,vl.b,vl.a)),Y.Y(32,1097728,null,0,kl.a,[[8,""],el.a,Y.j,Y.z],{small:[0,"small"]},null),(l()(),Y._18(-1,0,["Partager"])),(l()(),Y._18(-1,null,["\n        "])),(l()(),Y.Z(35,0,null,null,2,"button",[["class","btn"],["ion-button",""],["small",""]],null,null,null,vl.b,vl.a)),Y.Y(36,1097728,null,0,kl.a,[[8,""],el.a,Y.j,Y.z],{small:[0,"small"]},null),(l()(),Y._18(-1,0,["Publier"])),(l()(),Y._18(-1,null,["\n        "])),(l()(),Y.Z(39,0,null,null,2,"button",[["class","btn"],["ion-button",""],["small",""]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.backToHome()&&e}return e},vl.b,vl.a)),Y.Y(40,1097728,null,0,kl.a,[[8,""],el.a,Y.j,Y.z],{small:[0,"small"]},null),(l()(),Y._18(-1,0,["Rejouer"])),(l()(),Y._18(-1,null,["\n    "])),(l()(),Y._18(-1,null,["\n"])),(l()(),Y._18(-1,1,["\n"])),(l()(),Y._18(-1,null,["\n"])),(l()(),Y.Z(46,0,null,null,10,"ion-footer",[],null,null,null,null,null)),Y.Y(47,16384,null,0,yl.a,[el.a,Y.j,Y.z,[2,ll.a]],null,null),(l()(),Y._18(-1,null,["\n    "])),(l()(),Y.Z(49,0,null,null,6,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,jl.b,jl.a)),Y.Y(50,49152,null,0,bl.a,[el.a,Y.j,Y.z],null,null),(l()(),Y._18(-1,3,["\n        "])),(l()(),Y.Z(52,0,null,3,2,"button",[["class","btnClassement"],["full",""],["ion-button",""],["large",""]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.openPageClassement()&&e}return e},vl.b,vl.a)),Y.Y(53,1097728,null,0,kl.a,[[8,""],el.a,Y.j,Y.z],{large:[0,"large"],full:[1,"full"]},null),(l()(),Y._18(-1,0,["Classement"])),(l()(),Y._18(-1,3,["   \n    "])),(l()(),Y._18(-1,null,["\n"]))],function(l,n){l(n,32,0,"");l(n,36,0,"");l(n,40,0,"");l(n,53,0,"","")},function(l,n){var u=n.component;l(n,3,0,Y._11(n,4)._hidden,Y._11(n,4)._sbPadding);l(n,12,0,Y._11(n,13).statusbarPadding,Y._11(n,13)._hasRefresher);l(n,26,0,u.scoreFinale);l(n,49,0,Y._11(n,50)._sbPadding)})}Object.defineProperty(n,"__esModule",{value:!0});var q=u(28),Y=u(0),I=u(5),L=(u(41),u(76)),R=u(77),S=function(){function l(l){this.repository=l,this.questions=[],this.flag=!0,this.quizzContainerID=[],this.LifePoint=[{id:0,life:"fa fa-heart"},{id:1,life:"fa fa-heart"},{id:2,life:"fa fa-heart"}],this.Indice=[{id:0,joker:"assets/quizzImg/joker.png"},{id:1,joker:"assets/quizzImg/joker.png"},{id:2,joker:"assets/quizzImg/joker.png"}]}return l.prototype.ngOnInit=function(){console.log(this.questions)},l.prototype.getAllQuizz=function(l){return this.repository.getAllQuizz(l)},l.prototype.getRandomId=function(l){return Math.floor(Math.random()*Math.floor(l))},l.prototype.getLife=function(){return this.LifePoint},l.prototype.getIndice=function(){return this.Indice},l}(),C=function(){function l(l){this.repository=l}return l.prototype.findAllTheme=function(){return this.repository.findAllTheme()},l}(),N=function(){function l(l,n,u){this.quizzService=l,this.navCtrl=n,this.themeService=u,this.selectLevels=[],this.quizz=[],this.quizzByLevel=[],this.selectLevel=[{id:0,level:"Facile"},{id:1,level:"Moyen"},{id:2,level:"Difficile"}]}return l.prototype.ngOnInit=function(){var l=this;this.quizzService.questions.filter(function(n){n.easy.filter(function(n){l.quest=n,console.log(l.quest)})}),this.quizzService.getAllQuizz(this.numQuestion).subscribe(function(n){n.filter(function(n){l.quizz.push(n)})}),this.themeService.findAllTheme().subscribe(function(n){l.themeResult=n,console.log(l.themeResult)})},l.prototype.switchTheme=function(l){switch(l){case"naruto":this.quizzByLevel=this.quizz}},l.prototype.getDispatcherLevel=function(l){var n=this;return this.quizzByLevel.filter(function(n){return n.level==l}).map(function(l){n.quizzByLevelResult=l}),this.quizzByLevelResult},l.prototype.switchLevel=function(l){switch(l){case"Facile":console.log(this.getDispatcherLevel(l)),this.quizzService.questions.push(this.getDispatcherLevel(l));break;case"Moyen":console.log(this.getDispatcherLevel(l));break;case"Difficile":console.log(this.getDispatcherLevel(l))}},l=Object(I.__decorate)([Object(I.__param)(0,Object(Y.m)("QuizzService")),Object(I.__param)(2,Object(Y.m)("ThemeService"))],l)}(),P=function(){function l(l,n,u){this.quizzService=l,this.navCtrl=n,this.alertCtrl=u,this.response=!0,this.trueStatus=!1,this.falseStatus=!1,this.i=0,this.flag=!0,this.tests=new Array(10),this.indexLife=3,this.quizzDisplayResult=[]}return l.prototype.ngOnInit=function(){var l=this;this.score=0,this.flagJoker=!1,this.resultNumberLife=this.getNumberLife(),this.resultDisplayLife=this.getDisplayLife(this.resultNumberLife),this.resultJokerNumber=this.getJokerNumber(),this.resultDisplayJoker=this.getDisplayJoker(this.resultJokerNumber),this.resultNumberQuestion=this.getNumberQuestion(),this.randomNumbers=this.getRandomNumber(this.resultNumberQuestion),this.quizzService.questions.filter(function(n){n.easy.filter(function(n){return n.id==l.randomNumbers[l.i]}).map(function(n){return l.quizzResult=n})}),console.log(this.randomNumbers),console.log(this.quizzResult)},l.prototype.getRandomNumber=function(l){var n=0,u=new Array(l);u[0]=Math.floor(Math.random()*Math.floor(l));for(var e=0;e<u.length;e++){n=Math.floor(Math.random()*Math.floor(l));for(var t=0;t<u.length;t++){if(n==u[t]){this.flag=!1;break}this.flag=!0}!0===this.flag?u[e]=n:e--}return u},l.prototype.getNumberQuestion=function(){var l=this;return this.quizzService.questions.filter(function(n){l.numberQuestion=n.numberQuestion,console.log(l.numberQuestion)}),this.numberQuestion},l.prototype.getDisplayLife=function(l){var n=this;return this.quizzService.questions.filter(function(u){n.lifeTab=u.lifeTab,n.resultRemoveLife=n.lifeTab.slice(0,l),console.log(n.resultRemoveLife)}),this.resultRemoveLife},l.prototype.getDisplayJoker=function(l){var n=this;return this.quizzService.questions.filter(function(u){n.jokerTab=u.jokerTab,n.resultJokerRemove=n.jokerTab.slice(0,l),console.log(n.resultJokerRemove)}),this.resultJokerRemove},l.prototype.getNumberLife=function(){var l=this;return this.quizzService.questions.filter(function(n){l.lifeNumber=n.lifes}),this.lifeNumber},l.prototype.getJokerNumber=function(){var l=this;return this.quizzService.questions.filter(function(n){l.jokerNumber=n.jokers}),this.jokerNumber},l.prototype.trueResponse=function(l){var n=this.randomNumbers[this.i];l==n&&this.quizzResult.response==this.response?(console.log(n),this.trueStatus=!this.trueStatus,console.log(this.score),this.score=1==this.flagJoker?this.score+.5:this.score+1,this.flagJoker=!1):(this.falseStatus=!this.falseStatus,this.resultNumberLife=this.resultNumberLife-1,console.log(this.resultNumberLife),this.resultDisplayLife=this.getDisplayLife(this.resultNumberLife),this.gameOver(this.resultNumberLife),this.flagJoker=!1)},l.prototype.falseResponse=function(l){var n=this.randomNumbers[this.i];console.log(this.i),l==n&&this.quizzResult.response!=this.response?(this.trueStatus=!this.trueStatus,this.score=1==this.flagJoker?this.score+.5:this.score+1,this.flagJoker=!1):(this.falseStatus=!this.falseStatus,this.resultNumberLife=this.resultNumberLife-1,console.log(this.resultNumberLife),this.resultDisplayLife=this.getDisplayLife(this.resultNumberLife),this.gameOver(this.resultNumberLife),this.flagJoker=!1)},l.prototype.getNextQuestion=function(){var l=this;this.i=this.i+1,this.scoreFinale(this.i);var n=this.randomNumbers[this.i];this.quizzService.questions.filter(function(u){u.easy.filter(function(l){return l.id==n}).map(function(n){return l.quizzResult=n})}),this.trueStatus=!1,this.falseStatus=!1},l.prototype.scoreFinale=function(l){10==l&&this.navCtrl.push(x,this.score)},l.prototype.gameOver=function(l){0==l&&this.navCtrl.push(x,this.score)},l.prototype.jokerResponse=function(){var l=this;0!=this.resultJokerNumber&&(this.flagJoker=!0,this.quizzService.questions.filter(function(l){l.easy.filter(function(l){})}).map(function(n){return l.quizzResult=n}),this.resultJokerNumber=this.resultJokerNumber-1,this.resultDisplayJoker=this.getDisplayJoker(this.resultJokerNumber),console.log(this.resultDisplayJoker))},l.prototype.pastQuestion=function(){var l=this;this.alertCtrl.create({title:"Passer la question",message:"Passer à la question suivante ou prendre un joker? Utiliser un joker par question",buttons:[{text:"Quitter",handler:function(){}},{text:"Passer",handler:function(){return l.getNextQuestion()}},{text:"Joker",handler:function(){return l.jokerResponse()}}]}).present()},l=Object(I.__decorate)([Object(I.__param)(0,Object(Y.m)("QuizzService"))],l)}(),T=function(){function l(l){this.navCtrl=l}return l.prototype.openPageOption=function(){this.navCtrl.push(N)},l.prototype.openPageQuizz=function(){this.navCtrl.push(P)},l}(),x=function(){function l(l,n){this.navParams=l,this.navCtrl=n}return l.prototype.ngOnInit=function(){this.scoreFinale=this.navParams.data,console.log()},l.prototype.backToHome=function(){this.navCtrl.push(T)},l}(),F=function(){return function(l,n,u){this.rootPage=T,l.ready().then(function(){n.styleDefault(),u.hide()})}}(),Q=u(188),J=(u(189),function(){function l(l){this.http=l}return l.prototype.getAllQuizz=function(l){return this.http.get("assets/api/quizz.json").map(function(l){return l.json().quizz})},l}()),O=function(){function l(l){this.http=l}return l.prototype.findAllTheme=function(){return this.http.get("assets/api/theme.json").map(function(l){var n;return n=l.json().theme.mangas,console.log(n),n})},l}(),D=function(){return function(){}}(),w=u(49),M=u(223),U=u(224),A=u(225),V=u(226),$=u(227),B=u(228),X=u(229),G=u(230),W=u(231),E=u(232),H=u(37),K=u(54),ll=u(4),nl=u(15),ul=u(6),el=u(1),tl=u(3),il=u(8),al=u(32),sl=u(13),ol=u(9),rl=Y.X({encapsulation:2,styles:[],data:{}}),cl=Y.V("ng-component",F,function(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,1,"ng-component",[],null,null,null,s,rl)),Y.Y(1,49152,null,0,F,[tl.a,R.a,L.a],null,null)],null,null)},{},{},[]),fl=u(47),_l=u(78),hl=u(23),pl=u(79),gl=u(38),bl=u(24),dl=u(80),ml=u(21),zl=u(22),vl=u(25),kl=u(16),yl=u(56),jl=u(117),Zl=Y.X({encapsulation:2,styles:[],data:{}}),ql=Y.V("page-home",T,function(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,1,"page-home",[],null,null,null,o,Zl)),Y.Y(1,49152,null,0,T,[nl.a],null,null)],null,null)},{},{},[]),Yl=u(11),Il=u(61),Ll=Y.X({encapsulation:2,styles:[],data:{}}),Rl=Y.V("page-quizz",P,function(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,1,"page-quizz",[],null,null,null,z,Ll)),Y.Y(1,114688,null,0,P,["QuizzService",nl.a,Il.a],null,null)],function(l,n){l(n,1,0)},null)},{},{},[]),Sl=u(69),Cl=u(53),Nl=u(190),Pl=u(19),Tl=u(17),xl=u(45),Fl=u(65),Ql=u(44),Jl=u(233),Ol=u(72),Dl=u(18),wl=Y.X({encapsulation:2,styles:[],data:{}}),Ml=Y.V("page-option",N,function(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,1,"page-option",[],null,null,null,j,wl)),Y.Y(1,114688,null,0,N,["QuizzService",nl.a,"ThemeService"],null,null)],function(l,n){l(n,1,0)},null)},{},{},[]),Ul=u(10),Al=Y.X({encapsulation:2,styles:[],data:{}}),Vl=Y.V("page-score-finale",x,function(l){return Y._19(0,[(l()(),Y.Z(0,0,null,null,1,"page-score-finale",[],null,null,null,Z,Al)),Y.Y(1,114688,null,0,x,[Ul.a,nl.a],null,null)],function(l,n){l(n,1,0)},null)},{},{},[]),$l=u(116),Bl=u(89),Xl=u(113),Gl=u(34),Wl=u(95),El=u(185),Hl=u(51),Kl=u(46),ln=u(97),nn=u(62),un=u(101),en=u(112),tn=u(108),an=u(184),sn=u(114),on=u(30),rn=u(96),cn=u(115),fn=Y.W(D,[w.b],function(l){return Y._7([Y._8(512,Y.i,Y.S,[[8,[M.a,U.a,A.a,V.a,$.a,B.a,X.a,G.a,W.a,cl,ql,Rl,Ml,Vl]],[3,Y.i],Y.s]),Y._8(5120,Y.r,Y._15,[[3,Y.r]]),Y._8(4608,Yl.k,Yl.j,[Y.r,[2,Yl.s]]),Y._8(5120,Y.b,Y._1,[]),Y._8(5120,Y.p,Y._9,[]),Y._8(5120,Y.q,Y._12,[]),Y._8(4608,q.c,q.q,[Yl.c]),Y._8(6144,Y.D,null,[q.c]),Y._8(4608,q.f,$l.a,[]),Y._8(5120,q.d,function(l,n,u,e,t){return[new q.k(l,n),new q.o(u),new q.n(e,t)]},[Yl.c,Y.u,Yl.c,Yl.c,q.f]),Y._8(4608,q.e,q.e,[q.d,Y.u]),Y._8(135680,q.m,q.m,[Yl.c]),Y._8(4608,q.l,q.l,[q.e,q.m]),Y._8(6144,Y.B,null,[q.l]),Y._8(6144,q.p,null,[q.m]),Y._8(4608,Y.G,Y.G,[Y.u]),Y._8(4608,q.h,q.h,[Yl.c]),Y._8(4608,q.i,q.i,[Yl.c]),Y._8(4608,Q.c,Q.c,[]),Y._8(4608,Q.g,Q.b,[]),Y._8(5120,Q.i,Q.j,[]),Y._8(4608,Q.h,Q.h,[Q.c,Q.g,Q.i]),Y._8(4608,Q.f,Q.a,[]),Y._8(5120,Q.d,Q.k,[Q.h,Q.f]),Y._8(4608,Dl.k,Dl.k,[]),Y._8(4608,Dl.c,Dl.c,[]),Y._8(4608,Bl.a,Bl.a,[ul.a,el.a]),Y._8(4608,Il.a,Il.a,[ul.a,el.a]),Y._8(4608,Xl.a,Xl.a,[]),Y._8(4608,Tl.a,Tl.a,[]),Y._8(4608,Gl.a,Gl.a,[tl.a]),Y._8(4608,zl.a,zl.a,[el.a,tl.a,Y.u,ol.a]),Y._8(4608,Wl.a,Wl.a,[ul.a,el.a]),Y._8(5120,Yl.f,El.b,[Yl.q,[2,Yl.a],el.a]),Y._8(4608,Yl.e,Yl.e,[Yl.f]),Y._8(5120,Hl.b,Hl.d,[ul.a,Hl.a]),Y._8(5120,sl.a,sl.b,[ul.a,Hl.b,Yl.e,Kl.b,Y.i]),Y._8(4608,ln.a,ln.a,[ul.a,el.a,sl.a]),Y._8(4608,nn.a,nn.a,[ul.a,el.a]),Y._8(4608,un.a,un.a,[ul.a,el.a,sl.a]),Y._8(4608,en.a,en.a,[el.a,tl.a,ol.a,ul.a,il.l]),Y._8(4608,tn.a,tn.a,[ul.a,el.a]),Y._8(4608,al.a,al.a,[tl.a,el.a]),Y._8(4608,R.a,R.a,[]),Y._8(4608,L.a,L.a,[]),Y._8(5120,"IQuizzRepository",e,[Q.d]),Y._8(5120,"QuizzService",t,["IQuizzRepository"]),Y._8(5120,"IThemeRepository",i,[Q.d]),Y._8(5120,"ThemeService",a,["IThemeRepository"]),Y._8(512,Yl.b,Yl.b,[]),Y._8(512,Y.k,an.a,[]),Y._8(256,el.b,{},[]),Y._8(1024,sn.a,sn.b,[]),Y._8(1024,tl.a,tl.b,[q.b,sn.a,Y.u]),Y._8(1024,el.a,el.c,[el.b,tl.a]),Y._8(512,ol.a,ol.a,[tl.a]),Y._8(512,on.a,on.a,[]),Y._8(512,ul.a,ul.a,[el.a,tl.a,[2,on.a]]),Y._8(512,il.l,il.l,[ul.a]),Y._8(256,Hl.a,{links:[]},[]),Y._8(512,Y.h,Y.h,[]),Y._8(512,rn.a,rn.a,[Y.h]),Y._8(1024,Kl.b,Kl.c,[rn.a,Y.o]),Y._8(1024,Y.c,function(l,n,u,e,t,i,a,s,o,r,c,f,_){return[q.s(l),cn.a(n),Xl.b(u,e),en.b(t,i,a,s,o),Kl.d(r,c,f,_)]},[[2,Y.t],el.a,tl.a,ol.a,el.a,tl.a,ol.a,ul.a,il.l,el.a,Hl.a,Kl.b,Y.u]),Y._8(512,Y.d,Y.d,[[2,Y.c]]),Y._8(131584,Y.f,Y.f,[Y.u,Y.T,Y.o,Y.k,Y.i,Y.d]),Y._8(512,Y.e,Y.e,[Y.f]),Y._8(512,q.a,q.a,[[3,q.a]]),Y._8(512,Q.e,Q.e,[]),Y._8(512,Dl.j,Dl.j,[]),Y._8(512,Dl.d,Dl.d,[]),Y._8(512,Dl.i,Dl.i,[]),Y._8(512,El.a,El.a,[]),Y._8(512,D,D,[]),Y._8(256,w.a,F,[]),Y._8(256,Yl.a,"/",[])])});Object(Y.M)(),Object(q.j)().bootstrapModuleFactory(fn)}},[191]);
+webpackJsonp([0],{
+
+/***/ 103:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__domain_service_mangaListService__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__option_option__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__quizz_quizz__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__domain_service_quizzService__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__ = __webpack_require__(55);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+var HomePage = /** @class */ (function () {
+    function HomePage(quizzService, apiUrlsService, navCtrl, mangaListService, modalCtrl, loadingCtrl) {
+        this.quizzService = quizzService;
+        this.apiUrlsService = apiUrlsService;
+        this.navCtrl = navCtrl;
+        this.mangaListService = mangaListService;
+        this.modalCtrl = modalCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.resultQuizz = [];
+    }
+    HomePage.prototype.ngOnInit = function () {
+        var _this = this;
+        this.quizzService.getAllQuizzDefault()
+            .subscribe(function (resQuizz) {
+            resQuizz.filter(function (f) { return f.level == 'Facile'; }).map(function (result) {
+                return _this.quizzByDefaultResult = result;
+            });
+            _this.quizzService.getRemoveQuizz();
+            if (_this.quizzService.quizzContainer[0] == null) {
+                _this.quizzService.quizzContainer.push(_this.quizzByDefaultResult);
+            }
+        });
+    };
+    HomePage.prototype.getResetTimer = function () {
+        this.quizzService.quizzContainer.filter(function (row) {
+            row.timer.filter(function (subRow) {
+                if (subRow.currentTimer == 0 || subRow.currentTimer) {
+                    subRow.currentTimer = subRow.resetTimer;
+                }
+            });
+        });
+    };
+    HomePage.prototype.presentLoading = function () {
+        this.loader = this.loadingCtrl.create({
+            content: 'Chargement du quizz...',
+        });
+        this.loader.present();
+    };
+    HomePage.prototype.openQuizzPage = function () {
+        var _this = this;
+        this.presentLoading();
+        setTimeout(function () {
+            var modal = _this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_4__quizz_quizz__["a" /* QuizzPage */], _this.getResetTimer());
+            modal.present();
+            _this.hideLoading();
+        }, 2000);
+    };
+    HomePage.prototype.hideLoading = function () {
+        this.loader.dismiss();
+    };
+    HomePage.prototype.openModalOptionPage = function () {
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__option_option__["a" /* OptionPage */]);
+        modal.present();
+    };
+    HomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-home',template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title class="title">\n\n      Accueil\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <button class="btn" ion-button large full (click)="openPageQuizz()">Jouer</button>\n\n    <button class="btn" ion-button large full>Classement</button>\n\n    <button class="btn" ion-button large full>Proposer une question</button>   \n\n</ion-content>\n\n<ion-footer>\n\n  <ion-toolbar>\n\n    <button class="btn2" ion-button large full (click)="openPageOption()">Option</button>   \n\n  </ion-toolbar>\n\n</ion-footer>\n\n'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\pages\home\home.html"*/,
+            styleUrls: ['./home.scss']
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__domain_service_quizzService__["a" /* QuizzService */], typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */]) === "function" && _a || Object, __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__domain_service_mangaListService__["a" /* MangaListService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__domain_service_mangaListService__["a" /* MangaListService */]) === "function" && _b || Object, __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */]])
+    ], HomePage);
+    return HomePage;
+    var _a, _b;
+}());
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 104:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MangaListService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var MangaListService = /** @class */ (function () {
+    function MangaListService(http) {
+        this.http = http;
+    }
+    MangaListService.prototype.getMangaList = function () {
+        return this.http.get("https://api.myjson.com/bins/19szp4")
+            .map(function (result) {
+            var resultMangaList;
+            resultMangaList = result.json().mangas;
+            return resultMangaList;
+        });
+    };
+    MangaListService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
+    ], MangaListService);
+    return MangaListService;
+}());
+
+//# sourceMappingURL=mangaListService.js.map
+
+/***/ }),
+
+/***/ 115:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 115;
+
+/***/ }),
+
+/***/ 157:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 157;
+
+/***/ }),
+
+/***/ 201:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScoreFinalePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(103);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ScoreFinalePage = /** @class */ (function () {
+    function ScoreFinalePage(navParams, modalctrl, navCtrl, viewCtrl, loadingCtrl) {
+        this.navParams = navParams;
+        this.modalctrl = modalctrl;
+        this.navCtrl = navCtrl;
+        this.viewCtrl = viewCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.finalScoreArray = [];
+        this.stroke = 10;
+    }
+    ScoreFinalePage.prototype.ngOnInit = function () {
+        this.finalScoreArray.push(this.navParams.data);
+    };
+    ScoreFinalePage.prototype.presentLoading = function () {
+        this.loader = this.loadingCtrl.create({
+            content: "Retour à l'accueil...",
+        });
+        this.loader.present();
+    };
+    ScoreFinalePage.prototype.backToHome = function () {
+        var _this = this;
+        this.presentLoading();
+        setTimeout(function () {
+            _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
+            _this.hideLoading();
+        }, 2000);
+    };
+    ScoreFinalePage.prototype.hideLoading = function () {
+        this.loader.dismiss();
+    };
+    ScoreFinalePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-score-finale',template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\pages\scoreFinale\scoreFinale.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <ion-title class="title">\n\n        ScoreFinale\n\n      </ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <div class="content">\n\n    <div class="scoreFinale">\n\n        <h1>Score Finale</h1>\n\n        <div><strong><p><span>{{scoreFinale}}/10</span></p></strong></div>\n\n    </div> \n\n    <div id="group-button">\n\n        <button class="btn" ion-button small>Partager</button>\n\n        <button class="btn" ion-button small>Publier</button>\n\n        <button class="btn" ion-button small (click)="backToHome()">Rejouer</button>\n\n    </div>\n\n</div>\n\n</ion-content>\n\n<ion-footer>\n\n    <ion-toolbar>\n\n        <button class="btnClassement" ion-button large full (click)="openPageClassement()">Classement</button>   \n\n    </ion-toolbar>\n\n</ion-footer>'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\pages\scoreFinale\scoreFinale.html"*/,
+            styleUrls: ['./scoreFinale.scss']
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */]])
+    ], ScoreFinalePage);
+    return ScoreFinalePage;
+}());
+
+//# sourceMappingURL=scoreFinale.js.map
+
+/***/ }),
+
+/***/ 202:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OptionPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__domain_service_mangaListService__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__domain_service_selectLevelService__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__domain_service_quizzService__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__ = __webpack_require__(55);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+var OptionPage = /** @class */ (function () {
+    function OptionPage(quizzService, navCtrl, mangaListService, selectLevelService, apiUrlsService, viewCtrl, loadingCtrl) {
+        this.quizzService = quizzService;
+        this.navCtrl = navCtrl;
+        this.mangaListService = mangaListService;
+        this.selectLevelService = selectLevelService;
+        this.apiUrlsService = apiUrlsService;
+        this.viewCtrl = viewCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.resultQuizz = [];
+        this.defaultManga = 'Naruto';
+        this.defaultLevel = 'Moyen';
+        this.isDisabled = false;
+    }
+    OptionPage.prototype.ngOnInit = function () {
+        var _this = this;
+        var Mangas = this.resultMangaList;
+        var Level = this.resultSelectLevel;
+        this.option = new __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* FormGroup */]({
+            Mangas: new __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormControl */](null, [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["g" /* Validators */].required]),
+            Level: new __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormControl */](null, [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["g" /* Validators */].required])
+        });
+        this.mangaListService.getMangaList()
+            .subscribe(function (resMangaList) {
+            _this.resultMangaList = resMangaList;
+        });
+        this.selectLevelService.getSelectLevel()
+            .subscribe(function (resSelectLevel) {
+            _this.resultSelectLevel = resSelectLevel;
+        });
+        /*this.quizzService.getAllQuizz()
+          .subscribe((resQuizz: Array<Questionnaire>) => {
+            resQuizz.filter((row) => {
+              
+              this.resultQuizz.push(row);
+            })
+          })*/
+        this.option.get('Level').disable();
+        this.option.get('Mangas').valueChanges.subscribe(function (data) {
+            if (data) {
+                _this.option.get('Level').enable();
+            }
+        });
+    };
+    OptionPage.prototype.switchManga = function (title) {
+        title = this.option.controls['Mangas'].value;
+        switch (title) {
+            case 'Naruto':
+                this.quizzService.setNameManga(title);
+                //  this.quizzByLevel = this.resultQuizz;
+                // console.log(this.resultQuizz)
+                break;
+            case 'One-Piece':
+                break;
+            case 'Bleach':
+                break;
+            case 'FairyTail':
+                this.quizzService.setNameManga(title);
+                // this.quizzService.getCallApi()
+                // this.quizzByLevel = this.resultQuizz;
+                //   console.log(this.resultQuizz);
+                break;
+        }
+    };
+    OptionPage.prototype.getDispatcherLevel = function (level) {
+        var _this = this;
+        // console.log(this.quizzService.getQuizz())
+        this.quizzService.getQuizz().filter(function (row) {
+            return row.level == level;
+        }).map(function (result) { _this.quizzByLevelResult = result; });
+        return this.quizzByLevelResult;
+    };
+    OptionPage.prototype.switchLevel = function (level) {
+        level = this.option.controls['Level'].value;
+        switch (level) {
+            case 'Facile':
+                console.log(this.getDispatcherLevel(level));
+                this.quizzService.getRemoveQuizz();
+                this.quizzService.quizzContainer.push(this.getDispatcherLevel(level));
+                break;
+            case 'Moyen':
+                console.log(this.getDispatcherLevel(level));
+                this.quizzService.getRemoveQuizz();
+                this.quizzService.quizzContainer.push(this.getDispatcherLevel(level));
+                break;
+            case 'Difficile':
+                console.log(this.getDispatcherLevel(level));
+                this.quizzService.getRemoveQuizz();
+                this.quizzService.quizzContainer.push(this.getDispatcherLevel(level));
+                break;
+            case 'Extreme':
+                console.log(this.getDispatcherLevel(level));
+                this.quizzService.getRemoveQuizz();
+                this.quizzService.quizzContainer.push(this.getDispatcherLevel(level));
+                break;
+        }
+    };
+    OptionPage.prototype.presentLoading = function () {
+        this.loader = this.loadingCtrl.create({
+            content: "Veuillez patienter...",
+        });
+        this.loader.present();
+    };
+    OptionPage.prototype.dismiss = function () {
+        var _this = this;
+        this.presentLoading();
+        setTimeout(function () {
+            _this.viewCtrl.dismiss();
+            _this.hideLoading();
+        }, 2000);
+    };
+    OptionPage.prototype.hideLoading = function () {
+        this.loader.dismiss();
+    };
+    OptionPage.prototype.dismissModal = function () {
+        this.viewCtrl.dismiss();
+    };
+    OptionPage.prototype.closeModal = function () {
+        this.viewCtrl.dismiss();
+    };
+    OptionPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-option',template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\pages\option\option.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-buttons left>\n\n        <button ion-button icon-only (click)="dismissModal()">\n\n          <ion-icon name="arrow-back"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    <ion-title>\n\n      Option\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<!--<ion-content>\n\n  <ion-list>\n\n        <ion-item>\n\n          <ion-label>Manga</ion-label>\n\n          <ion-select [(ngModel)]="rml" [disabled]="connectivityFlag" (ionChange)="switchManga(rml)" cancelText="quitter" okText="valider">\n\n            <ion-option name="test" *ngFor="let rml of resultMangaList" [value]="rml.title" [selected]="rml.title == \'Naruto\'">{{rml.title}}</ion-option>\n\n          </ion-select>\n\n        </ion-item>\n\n      </ion-list>\n\n\n\n      <ion-list>\n\n        <ion-item>\n\n            <ion-label>Niveau</ion-label>\n\n              <ion-select [(ngModel)]="sl" (ionChange)="switchLevel(sl)"  cancelText="quitter" okText="valider">\n\n                 <ion-option *ngFor="let sl of resultSelectLevel"  [value]="sl.level"      [selected]="sl.level == \'Facile\'"> {{sl.level}}</ion-option>\n\n             </ion-select>\n\n        </ion-item>\n\n      </ion-list>\n\n</ion-content>-->\n\n\n\n<ion-content>\n\n<form [formGroup]="option">\n\n  <ion-list>\n\n        <ion-item>\n\n          <ion-label floating>Sélectionne le manga<span> *</span></ion-label>\n\n            <ion-select formControlName="Mangas" (ionChange)="switchManga(rml)" okText="sélectionner" cancelText="annuler">\n\n                <ion-option *ngFor="let rml of resultMangaList" [value]="rml.title"       >{{rml.title}}</ion-option>\n\n          </ion-select>\n\n        </ion-item>\n\n          <ion-item>\n\n            <ion-label floating>Sélectionne le niveau<span> *</span></ion-label>\n\n              <ion-select formControlName="Level" (ionChange)="switchLevel(sl)" okText="sélectionner" cancelText="annuler">\n\n                 <ion-option *ngFor="let sl of resultSelectLevel" [value]="sl.level"      > {{sl.level}}</ion-option>\n\n             </ion-select>\n\n        </ion-item>\n\n   </ion-list>\n\n</form>\n\n</ion-content>\n\n<ion-footer>\n\n  <ion-toolbar>\n\n         <button class="btn" ion-button large full type="submit" [disabled]="!option.valid" (click)="dismiss()">Valider</button> \n\n  </ion-toolbar>\n\n</ion-footer>\n\n'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\pages\option\option.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__domain_service_quizzService__["a" /* QuizzService */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavController */], typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__domain_service_mangaListService__["a" /* MangaListService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__domain_service_mangaListService__["a" /* MangaListService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__domain_service_selectLevelService__["a" /* SelectLevelService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__domain_service_selectLevelService__["a" /* SelectLevelService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */]) === "function" && _c || Object, __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["j" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* LoadingController */]])
+    ], OptionPage);
+    return OptionPage;
+    var _a, _b, _c;
+}());
+
+//# sourceMappingURL=option.js.map
+
+/***/ }),
+
+/***/ 203:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SelectLevelService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var SelectLevelService = /** @class */ (function () {
+    function SelectLevelService(http) {
+        this.http = http;
+    }
+    SelectLevelService.prototype.getSelectLevel = function () {
+        return this.http.get("https://api.myjson.com/bins/iay9q")
+            .map(function (result) {
+            var resultSelectLevel;
+            resultSelectLevel = result.json().selectLevel;
+            return resultSelectLevel;
+        });
+    };
+    SelectLevelService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
+    ], SelectLevelService);
+    return SelectLevelService;
+}());
+
+//# sourceMappingURL=selectLevelService.js.map
+
+/***/ }),
+
+/***/ 204:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return QuizzPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__domain_service_quizzService__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__scoreFinale_scoreFinale__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_moment__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_moment__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var QuizzPage = /** @class */ (function () {
+    function QuizzPage(quizzService, navCtrl, modalctrl, alertCtrl, viewCtrl, loadingCtrl) {
+        this.quizzService = quizzService;
+        this.navCtrl = navCtrl;
+        this.modalctrl = modalctrl;
+        this.alertCtrl = alertCtrl;
+        this.viewCtrl = viewCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.response = true;
+        this.trueStatus = false;
+        this.falseStatus = false;
+        this.i = 0;
+        this.flag = true;
+        this.flagPastQuestion = false;
+        this.timeOutResponse = false;
+        this.stroke = 10;
+    }
+    QuizzPage.prototype.ngOnInit = function () {
+        var _this = this;
+        this.score = 0;
+        this.flagJoker = false;
+        this.resultNumberLife = this.getNumberLife();
+        this.resultDisplayLife = this.getDisplayLife(this.resultNumberLife);
+        this.resultJokerNumber = this.getJokerNumber();
+        this.resultDisplayJoker = this.getDisplayJoker(this.resultJokerNumber);
+        this.resultNumberQuestion = this.getNumberQuestion();
+        this.randomNumbers = this.getRandomNumber(this.resultNumberQuestion);
+        this.quizzService.quizzContainer.filter(function (row) {
+            row.quizz.filter(function (subRow) {
+                return subRow.id == _this.randomNumbers[_this.i];
+            }).map(function (result) { return _this.quizzResult = result; });
+        });
+        this.quizzService.quizzContainer.filter(function (row) {
+            _this.displayQuizz = row;
+        });
+        this.getStartTimer();
+    };
+    QuizzPage.prototype.getRandomNumber = function (nq) {
+        var temp = 0;
+        var numberTab = new Array(nq);
+        numberTab[0] = Math.floor(Math.random() * Math.floor(nq));
+        for (var i = 0; i < numberTab.length; i++) {
+            temp = Math.floor(Math.random() * Math.floor(nq));
+            for (var j = 0; j < numberTab.length; j++) {
+                if (temp != numberTab[j]) {
+                    this.flag = true;
+                }
+                else {
+                    this.flag = false;
+                    break;
+                }
+            }
+            if (this.flag === true) {
+                numberTab[i] = temp;
+            }
+            else {
+                i--;
+            }
+        }
+        return numberTab;
+    };
+    QuizzPage.prototype.getNumberQuestion = function () {
+        var _this = this;
+        this.quizzService.quizzContainer.filter(function (row) {
+            _this.numberQuestion = row.numberQuestion;
+        });
+        return this.numberQuestion;
+    };
+    QuizzPage.prototype.getDisplayLife = function (indexLife) {
+        var _this = this;
+        this.quizzService.quizzContainer.filter(function (row) {
+            _this.lifeTab = row.lifeTab;
+            _this.resultRemoveLife = _this.lifeTab.slice(0, indexLife);
+        });
+        return this.resultRemoveLife;
+    };
+    QuizzPage.prototype.getDisplayJoker = function (indexJoker) {
+        var _this = this;
+        this.quizzService.quizzContainer.filter(function (row) {
+            _this.jokerTab = row.jokerTab;
+            _this.resultJokerRemove = _this.jokerTab.slice(0, indexJoker);
+        });
+        return this.resultJokerRemove;
+    };
+    QuizzPage.prototype.getNumberLife = function () {
+        var _this = this;
+        this.quizzService.quizzContainer.filter(function (row) {
+            _this.lifeNumber = row.lifes;
+        });
+        return this.lifeNumber;
+    };
+    QuizzPage.prototype.getJokerNumber = function () {
+        var _this = this;
+        this.quizzService.quizzContainer.filter(function (row) {
+            _this.jokerNumber = row.jokers;
+        });
+        return this.jokerNumber;
+    };
+    QuizzPage.prototype.getArrayTimer = function () {
+        var _this = this;
+        this.quizzService.quizzContainer.filter(function (row) {
+            _this.arrayCurrentTimer = row.timer;
+        });
+        return this.arrayCurrentTimer;
+    };
+    QuizzPage.prototype.getCurrentCountDown = function () {
+        var _this = this;
+        if (this.started != false) {
+            this.quizzService.quizzContainer.filter(function (row) {
+                row.timer.filter(function (subRow) {
+                    if (subRow.currentTimer > 0) {
+                        _this.started = !subRow.startedTimer;
+                        _this.currentTimerResult = subRow.currentTimer--;
+                        _this.timeOut();
+                    }
+                    else {
+                        _this.timeOutResponse = !_this.timeOutResponse;
+                        _this.resultNumberLife = _this.resultNumberLife - 1;
+                        _this.resultDisplayLife = _this.getDisplayLife(_this.resultNumberLife);
+                        _this.gameOver(_this.resultNumberLife, _this.score);
+                    }
+                });
+            });
+            return this.currentTimerResult;
+        }
+    };
+    QuizzPage.prototype.getResetTimer = function () {
+        this.quizzService.quizzContainer.filter(function (row) {
+            row.timer.filter(function (subRow) {
+                if (subRow.currentTimer || subRow.currentTimer === 0) {
+                    subRow.currentTimer = subRow.resetTimer;
+                }
+            });
+        });
+    };
+    QuizzPage.prototype.timeOut = function () {
+        var _this = this;
+        var timeOut = null;
+        timeOut = setTimeout(function () {
+            _this.getCurrentCountDown();
+        }, 800);
+    };
+    QuizzPage.prototype.getStartTimer = function () {
+        this.started = true;
+        this.timeOut();
+    };
+    QuizzPage.prototype.pause = function () {
+        if (this.started == true) {
+            this.started = false;
+        }
+    };
+    QuizzPage.prototype.getFormatTimer = function (input, units) {
+        if (input == 0) {
+            return 0;
+        }
+        else {
+            var duration = __WEBPACK_IMPORTED_MODULE_4_moment___default()().startOf('day').add(input, units);
+            var format = "";
+            if (duration.hour() > 0) {
+                format += "H[h]";
+            }
+            if (duration.minute() > 0) {
+                format += "m[min]";
+            }
+            if (duration.second() > 0) {
+                format += "s[s]";
+            }
+            return duration.format(format);
+        }
+    };
+    ;
+    QuizzPage.prototype.trueResponse = function (currentId) {
+        var number = this.randomNumbers[this.i];
+        if (currentId == number && this.quizzResult.response == this.response) {
+            this.trueStatus = !this.trueStatus;
+            this.pause();
+            if (this.flagJoker == true) {
+                this.score = this.score + 0.5;
+            }
+            else {
+                this.score = this.score + 1;
+            }
+            this.flagJoker = false;
+        }
+        else {
+            this.falseStatus = !this.falseStatus;
+            this.resultNumberLife = this.resultNumberLife - 1;
+            this.resultDisplayLife = this.getDisplayLife(this.resultNumberLife);
+            this.gameOver(this.resultNumberLife, this.score);
+            this.flagJoker = false;
+            this.pause();
+        }
+    };
+    QuizzPage.prototype.falseResponse = function (currentId) {
+        var number = this.randomNumbers[this.i];
+        if (currentId == number && this.quizzResult.response != this.response) {
+            this.trueStatus = !this.trueStatus;
+            this.pause();
+            if (this.flagJoker == true) {
+                this.score = this.score + 0.5;
+            }
+            else {
+                this.score = this.score + 1;
+            }
+            this.flagJoker = false;
+        }
+        else {
+            this.falseStatus = !this.falseStatus;
+            this.resultNumberLife = this.resultNumberLife - 1;
+            this.resultDisplayLife = this.getDisplayLife(this.resultNumberLife);
+            this.gameOver(this.resultNumberLife, this.score);
+            this.flagJoker = false;
+            this.pause();
+        }
+    };
+    QuizzPage.prototype.getGoodResponse = function (currentId) {
+        this.quizzService.quizzContainer.filter(function (row) {
+            row.quizz.filter(function (subRow) {
+                if (subRow.id == currentId) {
+                    return subRow.rightAnswer;
+                }
+            });
+        });
+    };
+    QuizzPage.prototype.getNextQuestion = function () {
+        var _this = this;
+        this.pause();
+        this.presentLoadingCustom();
+        setTimeout(function () {
+            _this.i = _this.i + 1;
+            _this.finalScore(_this.i, _this.score);
+            var nextRandomNumber = _this.randomNumbers[_this.i];
+            _this.quizzService.quizzContainer.filter(function (row) {
+                row.quizz.filter(function (subRow) {
+                    return subRow.id == nextRandomNumber;
+                }).map(function (result) { return _this.quizzResult = result; });
+            });
+            _this.trueStatus = false;
+            _this.falseStatus = false;
+            _this.timeOutResponse = false;
+            _this.flagJoker = false;
+            if (_this.i != 10) {
+                _this.getResetTimer();
+                _this.getStartTimer();
+            }
+            _this.loader.dismiss();
+        }, 500);
+    };
+    QuizzPage.prototype.presentLoadingCustom = function () {
+        this.loader = this.loadingCtrl.create({
+            content: '',
+            spinner: 'dots',
+            cssClass: 'my-loading-class'
+        });
+        this.loader.present();
+    };
+    QuizzPage.prototype.finalScore = function (position, finalScore) {
+        if (position == 10) {
+            this.pause();
+            var modal = this.modalctrl.create(__WEBPACK_IMPORTED_MODULE_3__scoreFinale_scoreFinale__["a" /* ScoreFinalePage */], { score: finalScore });
+            modal.present();
+        }
+    };
+    QuizzPage.prototype.gameOver = function (lifePoint, result) {
+        if (lifePoint == 0) {
+            this.pause();
+            var modal = this.modalctrl.create(__WEBPACK_IMPORTED_MODULE_3__scoreFinale_scoreFinale__["a" /* ScoreFinalePage */], { score: result });
+            modal.present();
+        }
+    };
+    QuizzPage.prototype.jokerResponse = function () {
+        var _this = this;
+        if (this.resultJokerNumber != 0) {
+            this.flagJoker = true;
+            this.quizzService.quizzContainer.filter(function (row) {
+                row.quizz.filter(function (subRow) {
+                    subRow.id == _this.randomNumbers;
+                }).map(function (result) { return _this.quizzResult = result; });
+            });
+            this.resultJokerNumber = this.resultJokerNumber - 1;
+            this.resultDisplayJoker = this.getDisplayJoker(this.resultJokerNumber);
+        }
+    };
+    QuizzPage.prototype.pastQuestion = function () {
+        var _this = this;
+        this.flagPastQuestion = true;
+        var alert = this.alertCtrl.create({
+            title: 'Passer la question',
+            message: 'Passer à la question suivante ou prendre un joker? Utiliser un joker par question',
+            buttons: [
+                {
+                    text: 'Quitter',
+                    handler: function () { }
+                },
+                {
+                    text: 'Passer',
+                    handler: function () { return _this.getNextQuestion(); }
+                },
+                {
+                    text: 'Joker',
+                    handler: function () { return _this.jokerResponse(); }
+                }
+            ]
+        });
+        alert.present();
+    };
+    QuizzPage.prototype.dismiss = function () {
+        this.viewCtrl.dismiss();
+        this.pause();
+    };
+    QuizzPage.prototype.dismissModal = function () {
+        var _this = this;
+        this.flagPastQuestion = true;
+        var alert = this.alertCtrl.create({
+            title: 'Retour au menu principale',
+            message: 'Voulez-vous vraiment quitter ce quizz?',
+            buttons: [
+                {
+                    text: 'Non',
+                    handler: function () { }
+                },
+                {
+                    text: 'Oui',
+                    handler: function () { return _this.dismiss(); }
+                },
+            ]
+        });
+        alert.present();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */]),
+        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */]) === "function" && _a || Object)
+    ], QuizzPage.prototype, "nav", void 0);
+    QuizzPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-quizz',template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\pages\quizz\quizz.html"*/'<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">\n\n<ion-header *ngIf="displayQuizz">\n\n    <ion-navbar>\n\n     <ion-buttons end>\n\n        <button ion-button icon-only menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <ion-buttons left>\n\n        <button ion-button icon-only (click)="dismissModal()">\n\n          <ion-icon name="arrow-back"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <ion-title class="title">Quizz {{displayQuizz.name}}({{displayQuizz.level}})</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content *ngIf="quizzResult">\n\n <div class="fullScreen">\n\n    <div class="displayQuizz">\n\n      <div class="scoreAndLife"><strong>Score:<span> {{score}}/10</span></strong></div>\n\n        <div class="scoreAndLife">\n\n          <div class="joker">\n\n            <div *ngFor="let rdk of resultDisplayJoker"><img src="{{rdk.jokerImg}}"></div>\n\n          </div>\n\n         <div class="progress-timer" *ngFor="let act of getArrayTimer()"> \n\n           <div class="timer">\n\n             {{getFormatTimer(act.currentTimer,\'s\')}}\n\n           </div>\n\n           <round-progress [current]="act.currentTimer" [max]="act.resetTimer" [color]="\'#45ccce\'" [radius]="70" [stroke]="stroke"  [rounded]="true" [responsive]="false" [animation]="\'easeOutCubic\'" [animationDelay]="0" ></round-progress>\n\n          </div>\n\n         </div>\n\n        <div class="scoreAndLife">\n\n    Vie: <span *ngFor="let rdl of resultDisplayLife">\n\n           <i class="{{rdl.lifeIcon}}" aria-hidden="true"></i>\n\n        </span>\n\n      </div>\n\n    </div>\n\n    <div class="displayQuizz">\n\n      <div class="textResponse">\n\n             <strong><p class="trt" *ngIf="trueStatus">{{quizzResult.textResponseTrue}}</p></strong>\n\n             <strong><p class="trf" *ngIf="falseStatus">{{quizzResult.textResponseFalse}}</p></strong>\n\n             <strong><p class="trf" *ngIf="timeOutResponse">Temps écoulé!!</p></strong>\n\n        </div>\n\n         <div class="question">\n\n              <strong><p>{{quizzResult.question}}</p></strong>\n\n              \n\n              <img  class="boolPic" *ngIf="trueStatus" src="{{quizzResult.truePicture}}" alt="">\n\n              <img  class="boolPic" id="pictureSize" *ngIf="falseStatus" src="{{quizzResult.falsePicture}}" alt="">\n\n         </div>\n\n        <div class="next-button">\n\n             <button *ngIf="trueStatus || falseStatus || timeOutResponse"  ion-button full (click)="getNextQuestion()">Suivant</button>\n\n\n\n        </div>\n\n        <div class="rightAnswer">\n\n          <p class="trf" *ngIf="falseStatus || timeOutResponse">{{quizzResult.rightAnswer}}</p>\n\n        </div>\n\n        <div class="jokerText">\n\n            <p *ngIf="flagJoker">{{quizzResult.jokerResponse}}</p>\n\n        </div>\n\n    </div>\n\n</div>  \n\n</ion-content>\n\n<ion-footer *ngIf="quizzResult">\n\n  <ion-toolbar>    \n\n      <div class="group-button">          \n\n        <button class="btnTrue" [disabled]="trueStatus || falseStatus || timeOutResponse" ion-button large (click)="trueResponse(quizzResult.id)">Vrai </button>\n\n        <button class="past" [disabled]="trueStatus || falseStatus || timeOutResponse" ion-button large (click)="pastQuestion()">Passer</button>\n\n        <button class="btnFalse" [disabled]="trueStatus || falseStatus || timeOutResponse" name="false" ion-button large (click)="falseResponse(quizzResult.id)">Faux</button>    \n\n    </div>   \n\n  </ion-toolbar>\n\n</ion-footer>\n\n\n\n\n\n\n\n'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\pages\quizz\quizz.html"*/,
+            styleUrls: ['/quizz.scss']
+        }),
+        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__domain_service_quizzService__["a" /* QuizzService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__domain_service_quizzService__["a" /* QuizzService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */]) === "function" && _g || Object])
+    ], QuizzPage);
+    return QuizzPage;
+    var _a, _b, _c, _d, _e, _f, _g;
+}());
+
+//# sourceMappingURL=quizz.js.map
+
+/***/ }),
+
+/***/ 332:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(355);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 355:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_scoreFinale_scoreFinale__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(410);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_quizz_quizz__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_option_option__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_http__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__domain_service_quizzService__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__domain_service_mangaListService__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__domain_service_apiUrlsService__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__domain_service_selectLevelService__ = __webpack_require__(203);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = /** @class */ (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_quizz_quizz__["a" /* QuizzPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_option_option__["a" /* OptionPage */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_scoreFinale_scoreFinale__["a" /* ScoreFinalePage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_10__angular_http__["b" /* HttpModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {}, {
+                    links: []
+                })
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_quizz_quizz__["a" /* QuizzPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_option_option__["a" /* OptionPage */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_scoreFinale_scoreFinale__["a" /* ScoreFinalePage */]
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_11__domain_service_quizzService__["a" /* QuizzService */],
+                __WEBPACK_IMPORTED_MODULE_12__domain_service_mangaListService__["a" /* MangaListService */],
+                __WEBPACK_IMPORTED_MODULE_13__domain_service_apiUrlsService__["a" /* ApiUrlsService */],
+                __WEBPACK_IMPORTED_MODULE_14__domain_service_selectLevelService__["a" /* SelectLevelService */]
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 409:
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": 205,
+	"./af.js": 205,
+	"./ar": 206,
+	"./ar-dz": 207,
+	"./ar-dz.js": 207,
+	"./ar-kw": 208,
+	"./ar-kw.js": 208,
+	"./ar-ly": 209,
+	"./ar-ly.js": 209,
+	"./ar-ma": 210,
+	"./ar-ma.js": 210,
+	"./ar-sa": 211,
+	"./ar-sa.js": 211,
+	"./ar-tn": 212,
+	"./ar-tn.js": 212,
+	"./ar.js": 206,
+	"./az": 213,
+	"./az.js": 213,
+	"./be": 214,
+	"./be.js": 214,
+	"./bg": 215,
+	"./bg.js": 215,
+	"./bm": 216,
+	"./bm.js": 216,
+	"./bn": 217,
+	"./bn.js": 217,
+	"./bo": 218,
+	"./bo.js": 218,
+	"./br": 219,
+	"./br.js": 219,
+	"./bs": 220,
+	"./bs.js": 220,
+	"./ca": 221,
+	"./ca.js": 221,
+	"./cs": 222,
+	"./cs.js": 222,
+	"./cv": 223,
+	"./cv.js": 223,
+	"./cy": 224,
+	"./cy.js": 224,
+	"./da": 225,
+	"./da.js": 225,
+	"./de": 226,
+	"./de-at": 227,
+	"./de-at.js": 227,
+	"./de-ch": 228,
+	"./de-ch.js": 228,
+	"./de.js": 226,
+	"./dv": 229,
+	"./dv.js": 229,
+	"./el": 230,
+	"./el.js": 230,
+	"./en-SG": 231,
+	"./en-SG.js": 231,
+	"./en-au": 232,
+	"./en-au.js": 232,
+	"./en-ca": 233,
+	"./en-ca.js": 233,
+	"./en-gb": 234,
+	"./en-gb.js": 234,
+	"./en-ie": 235,
+	"./en-ie.js": 235,
+	"./en-il": 236,
+	"./en-il.js": 236,
+	"./en-nz": 237,
+	"./en-nz.js": 237,
+	"./eo": 238,
+	"./eo.js": 238,
+	"./es": 239,
+	"./es-do": 240,
+	"./es-do.js": 240,
+	"./es-us": 241,
+	"./es-us.js": 241,
+	"./es.js": 239,
+	"./et": 242,
+	"./et.js": 242,
+	"./eu": 243,
+	"./eu.js": 243,
+	"./fa": 244,
+	"./fa.js": 244,
+	"./fi": 245,
+	"./fi.js": 245,
+	"./fo": 246,
+	"./fo.js": 246,
+	"./fr": 247,
+	"./fr-ca": 248,
+	"./fr-ca.js": 248,
+	"./fr-ch": 249,
+	"./fr-ch.js": 249,
+	"./fr.js": 247,
+	"./fy": 250,
+	"./fy.js": 250,
+	"./ga": 251,
+	"./ga.js": 251,
+	"./gd": 252,
+	"./gd.js": 252,
+	"./gl": 253,
+	"./gl.js": 253,
+	"./gom-latn": 254,
+	"./gom-latn.js": 254,
+	"./gu": 255,
+	"./gu.js": 255,
+	"./he": 256,
+	"./he.js": 256,
+	"./hi": 257,
+	"./hi.js": 257,
+	"./hr": 258,
+	"./hr.js": 258,
+	"./hu": 259,
+	"./hu.js": 259,
+	"./hy-am": 260,
+	"./hy-am.js": 260,
+	"./id": 261,
+	"./id.js": 261,
+	"./is": 262,
+	"./is.js": 262,
+	"./it": 263,
+	"./it-ch": 264,
+	"./it-ch.js": 264,
+	"./it.js": 263,
+	"./ja": 265,
+	"./ja.js": 265,
+	"./jv": 266,
+	"./jv.js": 266,
+	"./ka": 267,
+	"./ka.js": 267,
+	"./kk": 268,
+	"./kk.js": 268,
+	"./km": 269,
+	"./km.js": 269,
+	"./kn": 270,
+	"./kn.js": 270,
+	"./ko": 271,
+	"./ko.js": 271,
+	"./ku": 272,
+	"./ku.js": 272,
+	"./ky": 273,
+	"./ky.js": 273,
+	"./lb": 274,
+	"./lb.js": 274,
+	"./lo": 275,
+	"./lo.js": 275,
+	"./lt": 276,
+	"./lt.js": 276,
+	"./lv": 277,
+	"./lv.js": 277,
+	"./me": 278,
+	"./me.js": 278,
+	"./mi": 279,
+	"./mi.js": 279,
+	"./mk": 280,
+	"./mk.js": 280,
+	"./ml": 281,
+	"./ml.js": 281,
+	"./mn": 282,
+	"./mn.js": 282,
+	"./mr": 283,
+	"./mr.js": 283,
+	"./ms": 284,
+	"./ms-my": 285,
+	"./ms-my.js": 285,
+	"./ms.js": 284,
+	"./mt": 286,
+	"./mt.js": 286,
+	"./my": 287,
+	"./my.js": 287,
+	"./nb": 288,
+	"./nb.js": 288,
+	"./ne": 289,
+	"./ne.js": 289,
+	"./nl": 290,
+	"./nl-be": 291,
+	"./nl-be.js": 291,
+	"./nl.js": 290,
+	"./nn": 292,
+	"./nn.js": 292,
+	"./pa-in": 293,
+	"./pa-in.js": 293,
+	"./pl": 294,
+	"./pl.js": 294,
+	"./pt": 295,
+	"./pt-br": 296,
+	"./pt-br.js": 296,
+	"./pt.js": 295,
+	"./ro": 297,
+	"./ro.js": 297,
+	"./ru": 298,
+	"./ru.js": 298,
+	"./sd": 299,
+	"./sd.js": 299,
+	"./se": 300,
+	"./se.js": 300,
+	"./si": 301,
+	"./si.js": 301,
+	"./sk": 302,
+	"./sk.js": 302,
+	"./sl": 303,
+	"./sl.js": 303,
+	"./sq": 304,
+	"./sq.js": 304,
+	"./sr": 305,
+	"./sr-cyrl": 306,
+	"./sr-cyrl.js": 306,
+	"./sr.js": 305,
+	"./ss": 307,
+	"./ss.js": 307,
+	"./sv": 308,
+	"./sv.js": 308,
+	"./sw": 309,
+	"./sw.js": 309,
+	"./ta": 310,
+	"./ta.js": 310,
+	"./te": 311,
+	"./te.js": 311,
+	"./tet": 312,
+	"./tet.js": 312,
+	"./tg": 313,
+	"./tg.js": 313,
+	"./th": 314,
+	"./th.js": 314,
+	"./tl-ph": 315,
+	"./tl-ph.js": 315,
+	"./tlh": 316,
+	"./tlh.js": 316,
+	"./tr": 317,
+	"./tr.js": 317,
+	"./tzl": 318,
+	"./tzl.js": 318,
+	"./tzm": 319,
+	"./tzm-latn": 320,
+	"./tzm-latn.js": 320,
+	"./tzm.js": 319,
+	"./ug-cn": 321,
+	"./ug-cn.js": 321,
+	"./uk": 322,
+	"./uk.js": 322,
+	"./ur": 323,
+	"./ur.js": 323,
+	"./uz": 324,
+	"./uz-latn": 325,
+	"./uz-latn.js": 325,
+	"./uz.js": 324,
+	"./vi": 326,
+	"./vi.js": 326,
+	"./x-pseudo": 327,
+	"./x-pseudo.js": 327,
+	"./yo": 328,
+	"./yo.js": 328,
+	"./zh-cn": 329,
+	"./zh-cn.js": 329,
+	"./zh-hk": 330,
+	"./zh-hk.js": 330,
+	"./zh-tw": 331,
+	"./zh-tw.js": 331
+};
+function webpackContext(req) {
+	return __webpack_require__(webpackContextResolve(req));
+};
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) // check for number or string
+		throw new Error("Cannot find module '" + req + "'.");
+	return id;
+};
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 409;
+
+/***/ }),
+
+/***/ 410:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(103);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = /** @class */ (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */];
+        platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            statusBar.styleDefault();
+            splashScreen.hide();
+        });
+    }
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\app\app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 54:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return QuizzService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__apiUrlsService__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_catch__ = __webpack_require__(404);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_catch__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_toPromise__ = __webpack_require__(407);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_toPromise__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var QuizzService = /** @class */ (function () {
+    function QuizzService(http, apiUrlsService) {
+        this.http = http;
+        this.apiUrlsService = apiUrlsService;
+        this.quizzContainer = [];
+        this.newResultQuizz = [];
+        this.resultQuizz = [];
+        this.url = "https://api.myjson.com/bins/djse8";
+        this._name = '<no name set>';
+    }
+    QuizzService.prototype.getAllQuizzDefault = function () {
+        return this.http.get(this.url)
+            .map(function (result) {
+            var quizz;
+            quizz = result.json().quizz;
+            return quizz;
+        });
+    };
+    QuizzService.prototype.setNameManga = function (name) {
+        var _this = this;
+        console.log(name);
+        this.apiUrlsService.getApi(name)
+            .subscribe(function (apiNaruto) {
+            apiNaruto.filter(function (row) { return row.name === name; }).map(function (result) { return _this.resultApiNaruto = result; });
+            _this.apiResult = _this.resultApiNaruto.api;
+            _this.setCallApi(_this.apiResult);
+            _this.getCallApi();
+            _this.getAllQuizz();
+            _this.getQuizz();
+        });
+        return this.apiResult;
+    };
+    QuizzService.prototype.setCallApi = function (api) {
+        this.apiManga = api;
+    };
+    QuizzService.prototype.getCallApi = function () {
+        return this.apiManga;
+    };
+    QuizzService.prototype.getAllQuizz = function () {
+        return this.http.get(this.getCallApi())
+            .map(function (result) {
+            var quizz;
+            quizz = result.json().quizz;
+            return quizz;
+        });
+    };
+    QuizzService.prototype.getQuizz = function () {
+        var _this = this;
+        this.getAllQuizz()
+            .subscribe(function (resQuizz) {
+            _this.newResultQuizz = _this.setRemoveResultQuizz(resQuizz);
+        });
+        console.log(this.newResultQuizz);
+        return this.newResultQuizz;
+    };
+    QuizzService.prototype.getRemoveQuizz = function () {
+        var remove = this.quizzContainer.length;
+        if (remove >= 1) {
+            return this.quizzContainer.splice(0);
+        }
+        else {
+            return this.quizzContainer;
+        }
+    };
+    QuizzService.prototype.setRemoveResultQuizz = function (result) {
+        var remove = result.length;
+        if (remove >= 1) {
+            return result.splice(0);
+        }
+        else {
+            return result;
+        }
+    };
+    QuizzService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */], typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__apiUrlsService__["a" /* ApiUrlsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__apiUrlsService__["a" /* ApiUrlsService */]) === "function" && _a || Object])
+    ], QuizzService);
+    return QuizzService;
+    var _a;
+}());
+
+//# sourceMappingURL=quizzService.js.map
+
+/***/ }),
+
+/***/ 55:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ApiUrlsService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ApiUrlsService = /** @class */ (function () {
+    function ApiUrlsService(http) {
+        this.http = http;
+        this.arrayApiUrls = [];
+    }
+    ApiUrlsService.prototype.ngOnInit = function () {
+    };
+    ApiUrlsService.prototype.getApi = function (name) {
+        return this.http.get("https://api.myjson.com/bins/c9a0g")
+            .map(function (result) {
+            var api;
+            api = result.json().apiUrls;
+            return api;
+        });
+    };
+    ApiUrlsService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
+    ], ApiUrlsService);
+    return ApiUrlsService;
+}());
+
+//# sourceMappingURL=apiUrlsService.js.map
+
+/***/ })
+
+},[332]);
+//# sourceMappingURL=main.js.map

@@ -12,28 +12,13 @@ import { OptionPage } from '../pages/option/option';
 import { HttpModule, Http } from '@angular/http';
 
 import { QuizzService } from '../domain/service/quizzService';
-import { QuizzHttpProxy } from "../infrastructure/proxy/real/quizzHttpProxy";
-import { IQuizzRepository } from "../infrastructure/proxy/contract/iQuizzRepository";
+import { MangaListService } from "../domain/service/mangaListService";
+import { ApiUrlsService } from '../domain/service/apiUrlsService';
+import { SelectLevelService } from '../domain/service/selectLevelService';
+import { ReactiveFormsModule } from '@angular/forms';
 
-import { ThemeService } from "../domain/service/themeService";
-import { IThemeRepository } from "../infrastructure/proxy/contract/iThemeRepository";
-import { ThemeHttpProxy } from "../infrastructure/proxy/real/themeHttpProxy";
+import { RoundProgressModule } from 'angular-svg-round-progressbar';
 
-export function quizzHttpProxy(http): QuizzHttpProxy{
-  return new QuizzHttpProxy(http);
-} 
-
-export function quizzService(repository: IQuizzRepository): QuizzService {
-  return new QuizzService(repository);
-}
-
-export function themeHttpProxy(http): ThemeHttpProxy {
-  return new ThemeHttpProxy(http);
-}
-
-export function themeService(repository: IThemeRepository): ThemeService {
-  return new ThemeService(repository);
-}
 
 @NgModule({
   declarations: [
@@ -47,6 +32,8 @@ export function themeService(repository: IThemeRepository): ThemeService {
   imports: [
     BrowserModule,
     HttpModule,
+    ReactiveFormsModule,
+    RoundProgressModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -60,11 +47,10 @@ export function themeService(repository: IThemeRepository): ThemeService {
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler},
-    {provide: 'QuizzService', useFactory: quizzService, deps: ['IQuizzRepository']},
-    {provide: 'IQuizzRepository', useFactory: quizzHttpProxy, deps: [Http]},
-    {provide: 'ThemeService', useFactory: themeService, deps: ['IThemeRepository']},
-    {provide: 'IThemeRepository', useFactory: themeHttpProxy, deps: [Http]}
+    QuizzService,
+    MangaListService,
+    ApiUrlsService,
+    SelectLevelService
   ]
 })
 export class AppModule {}

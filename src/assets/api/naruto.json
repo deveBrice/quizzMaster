@@ -1,0 +1,641 @@
+{
+	"quizz": [{
+			"level": "Facile",
+			"name": "Naruto",
+			"numberQuestion": 10,
+			"lifes": 3,
+			"jokers": 3,
+			"quizz": [{
+					"id": 0,
+					"question": "Ino est-elle la rivale de Hinata?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: Ino est la rivale de Sakura.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elle possède des cheveux rose.",
+					"level": "Facile"
+				},
+				{
+					"id": 1,
+					"question": "Kakashi lit-il le paradis du batifolage?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: Oui, il adore lire ce livre.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Tranquile sur un arbre."
+				},
+				{
+					"id": 2,
+					"question": "Le démon qui se trouve à l'intérieur de naruto, c'est Gamakachi?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: C'est le démon renard.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il possède 9 queues."
+				},
+				{
+					"id": 3,
+					"question": "Le jutsu de Yamato est mokuton?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: il a reçu les céllules de Hashirama.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Hashirama."
+				},
+				{
+					"id": 4,
+					"question": "Hidan à tué le premier Kazekage?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: c'était Sasori.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il était une marionnette."
+				},
+				{
+					"id": 5,
+					"question": "L'équipe n°8 se compose-t-elle de Hinata, Shino et Kiba?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: l'équipe se compose bien de ces membres.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Kurenai est leur sensei."
+				},
+				{
+					"id": 6,
+					"question": "Kizame est du village de Iwa?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: c'est un ninja du village de Kiri.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Au début des épisodes de Naruto, Naruto s'y rend avec son équipe."
+				},
+				{
+					"id": 7,
+					"question": "Est-ce que Saï c'est marié avec Ino.",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: il se sont marié.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "C'est la rivale de Sakura."
+				},
+				{
+					"id": 8,
+					"question": "La technique que Naruto maîtrise le mieux est le rasengan?",
+					"response": false,
+					"rightAnswer": "Faux: c'est le multiclonage.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"picture": "",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il peut en crée plusieurs à la fois."
+				},
+				{
+					"id": 9,
+					"question": "Celui qui à vaincu le 3ème Hokage est-ce Orochimaru?",
+					"response": true,
+					"rightAnswer": "Vrai: Il voulait détruire konaha.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"picture": "",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il peuT passer de corps en corps."
+				}
+			],
+			"lifeTab": [{
+					"id": 0,
+					"lifeIcon": "fa fa-heart"
+				},
+				{
+					"id": 1,
+					"lifeIcon": "fa fa-heart"
+				},
+				{
+					"id": 2,
+					"lifeIcon": "fa fa-heart"
+				}
+			],
+			"jokerTab": [{
+					"id": 0,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				},
+				{
+					"id": 1,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				},
+				{
+					"id": 2,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				}
+			],
+			"timer": [{
+				"currentTimer": 15,
+				"resetTimer": 15,
+				"startedTimer": false
+			}]
+		},
+		{
+			"level": "Moyen",
+			"name": "Naruto",
+			"numberQuestion": 10,
+			"lifes": 3,
+			"jokers": 3,
+			"quizz": [{
+					"id": 0,
+					"question": "Naruto a changé d'habit, car il voulait changer de look?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: Ces habits étaient déchiré suite à son entraînement avec Jiraya.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textresponseFalse": "Réponse incorrecte",
+					"jokerResponse": "État de ces habits après un entraînement acharné.",
+					"level": "Facile"
+				},
+				{
+					"id": 1,
+					"question": "Y avait-il 3 ninjas d'Oto à l'examen des chunins?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: il avait prévu de l'assassiné pour montrer leur valeur à Orochimaru.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Ils se sont mesurés à Sasuke."
+				},
+				{
+					"id": 2,
+					"question": "La mission de Saï était de tuer Orochimaru?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: Il voulait tuer Sasuké, pour avoir son corps.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il fait partie du clan Uchiwa."
+				},
+				{
+					"id": 3,
+					"question": "Madara c'est battu contre le premier Hokage?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: Ils se sont battus pour avoir le contrôle de Konoha.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il possède le mokuton."
+				},
+				{
+					"id": 4,
+					"question": "Hidan a tué le premier Kazekage?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: C'est Kakuzu.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il était une marionnette."
+				},
+				{
+					"id": 5,
+					"question": "Kisame est-il le démon sans queue?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: il pouvait tenir tête à un démon à queue.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il s'est battu contre Gaï."
+				},
+				{
+					"id": 6,
+					"question": "Madara possède t-il le rinnegan et le byakugan?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: Il possèdait le rinnegan et le sharingan.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Kakashi en possèdais une."
+				},
+				{
+					"id": 7,
+					"question": "L'épée de Kisame s'appelle t-il samehada?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: C'est son épée peau de requin.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elle peut manger le chakra."
+				},
+				{
+					"id": 8,
+					"question": "Sasuke devient-il chunin après l'attaque Konoha?",
+					"response": false,
+					"rightAnswer": "Faux: Il n'avait pas terminé son combat avec Gaara",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"picture": "",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Une boule de fumer."
+				},
+				{
+					"id": 9,
+					"question": "Naruto a tué Kakuzu?",
+					"response": true,
+					"rightAnswer": "Vrai: Il a vaincu avec son raizen shuriken.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"picture": "",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Son rêve était de devenir hokage."
+				}
+			],
+			"lifeTab": [{
+					"id": 0,
+					"lifeIcon": "fa fa-heart"
+				},
+				{
+					"id": 1,
+					"lifeIcon": "fa fa-heart"
+				},
+				{
+					"id": 2,
+					"lifeIcon": "fa fa-heart"
+				}
+			],
+			"jokerTab": [{
+					"id": 0,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				},
+				{
+					"id": 1,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				},
+				{
+					"id": 2,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				}
+			],
+			"timer": [{
+				"currentTimer": 30,
+				"resetTimer": 30,
+				"startedTimer": false
+			}]
+		},
+		{
+			"level": "Difficile",
+			"name": "Naruto",
+			"numberQuestion": 10,
+			"lifes": 3,
+			"jokers": 3,
+			"quizz": [{
+					"id": 0,
+					"question": "Kagura est-elle la mère de l'ermite Rikudo?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: Elle se nomme Kaguya et pas Kagura.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textresponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elle s'est battue contre Naruto et Sasuke."
+				},
+				{
+					"id": 1,
+					"question": "La technique ultime de Gaï est-il le Yagaï?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: Il a faillit perdre la vie en l'utilisant.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il l'utilise contre Madara."
+				},
+				{
+					"id": 2,
+					"question": "Obto meurt-il coupé en deux?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: Il meurt désintégré comme les autres réincarné.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il meurt de la même manière que les autres ninjas réincarnés."
+				},
+				{
+					"id": 3,
+					"question": "Néji A-til perdu la vie à l'épisode 364?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: Il perd la vie en utilisant son corps pour protéger Hinata.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il possède le byakugan."
+				},
+				{
+					"id": 4,
+					"question": "Lee peut ouvrir jusqu'à 7 portes?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: il peut en ouvrir jusqu'à 5.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il les a utilisés contre Gaara."
+				},
+				{
+					"id": 5,
+					"question": "Itachi et Kisame ont-ils capturés Yonbi?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: ils ont réussi à le capturé ensemble.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "L'un des deux a combattu contre Sakura et l'autre poursuivais Kakashi."
+				},
+				{
+					"id": 6,
+					"question": "Est-ce que Shikamaru commence à fumer au début de la guerre?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: C'est après la mort de Asuma.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "L'oncle de Konohamaru."
+				},
+				{
+					"id": 7,
+					"question": "La porte de la rétention est la cinquième porte céleste?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: Elle permet d'augmenter la vitesse pour celui qui l'ouvre.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elle se trouve sur la colonne vertebrale."
+				},
+				{
+					"id": 8,
+					"question": "La couleur du Susanoo de Shisui Uchiwa est-elle violet?",
+					"response": false,
+					"rightAnswer": "Faux: celui de Shisui est vert.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"picture": "",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Comme la couleur des yeux de Kakuzu."
+				},
+				{
+					"id": 9,
+					"question": "Le prénom du père de shino est-il Shibi?",
+					"response": true,
+					"rightAnswer": "Vrai: Son prénom est Shibi",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"picture": "",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Son prénom ressemble presque à celui de son fils."
+				}
+			],
+			"lifeTab": [{
+					"id": 0,
+					"lifeIcon": "fa fa-heart"
+				},
+				{
+					"id": 1,
+					"lifeIcon": "fa fa-heart"
+				},
+				{
+					"id": 2,
+					"lifeIcon": "fa fa-heart"
+				}
+			],
+			"jokerTab": [{
+					"id": 0,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				},
+				{
+					"id": 1,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				},
+				{
+					"id": 2,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				}
+			],
+			"timer": [{
+				"currentTimer": 45,
+				"resetTimer": 45,
+				"startedTimer": false
+			}]
+		},
+    {
+			"level": "Extreme",
+			"name": "Naruto",
+			"numberQuestion": 10,
+			"lifes": 3,
+			"jokers": 3,
+			"quizz": [{
+					"id": 0,
+					"question": "Nidaime est-il le premier Raikage?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: c'est Shodai, Nidaime était son garde du corps.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textresponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il a participé à la première réunion des 5 kagés."
+				},
+				{
+					"id": 1,
+					"question": "Darui à t-il appris à utiliser le Ranton?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: Il appris au cours d'une formation avec le troisième Raikage.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il est devenu le 5 Raikage."
+				},
+				{
+					"id": 2,
+					"question": "Le Shakuton est-il l'art de maitriser l'affinité de la glace?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: c'est l'incineration.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Pakura en est la détentrice."
+				},
+				{
+					"id": 3,
+					"question": "La chut de la verité existe t-il dans l'anime Naruto?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: il a appris à dompter le chakra de kyubi dans ce lieu.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "L'endoit où on peut affronter les pires ennemis."
+				},
+				{
+					"id": 4,
+					"question": "Shisui est surnomé l'invisible?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: surnomé mirage car il avait un très puissant genjutsu.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Dans un désert on y voit des oasis."
+				},
+				{
+					"id": 5,
+					"question": "Mû est-il surnomé l'invisible?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: les plus grand ninja sensoriel ne peuvent le detecté.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "ça lui permet de se camoufler."
+				},
+				{
+					"id": 6,
+					"question": "La technique signature de Pain est shinka?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: Sa technique signature est le Shinra",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il l'utilise pour raser le village de Knonoha."
+				},
+				{
+					"id": 7,
+					"question": "Le père Hiruzen Sarutobi est Sasuke Sarutobi?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: il était sous les ordres du daimyô Yukimura.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il fut membre des dix heros de sanada."
+				},
+				{
+					"id": 8,
+					"question": "L'élément qui constitue le shakuton est l'eau et la foudre?",
+					"response": false,
+					"rightAnswer": "Faux: Il est constituer de vent avec de feu.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"picture": "",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Naruto maîtrise l'un et Sasuke maîtrise l'autre élément."
+				},
+				{
+					"id": 9,
+					"question": "Mito Uzumaki est originaire du pays des tourbillons?",
+					"response": true,
+					"rightAnswer": "Vrai: c'était une île situé à l'est du pays du feu.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"picture": "",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il fut ravagé par de nombreuse guerre."
+				}
+			],
+			"lifeTab": [{
+					"id": 0,
+					"lifeIcon": "fa fa-heart"
+				},
+				{
+					"id": 1,
+					"lifeIcon": "fa fa-heart"
+				},
+				{
+					"id": 2,
+					"lifeIcon": "fa fa-heart"
+				}
+			],
+			"jokerTab": [{
+					"id": 0,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				},
+				{
+					"id": 1,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				},
+				{
+					"id": 2,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				}
+			],
+			"timer": [{
+				"currentTimer": 45,
+				"resetTimer": 45,
+				"startedTimer": false
+			}]
+		}
+	]
+}

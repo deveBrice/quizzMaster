@@ -1,21 +1,41 @@
+<script src="https://code.iconify.design/1/1.0.0-rc7/iconify.min.js"></script>
 <ion-header>
     <ion-navbar>
       <ion-title class="title">
         ScoreFinale
       </ion-title>
+       <!--<ion-buttons left>
+            <button ion-button (click)="dismiss()">
+                <span ion-text color="primary" showWhen="ios">Cancel</span>
+                <ion-icon name="arrow-round-back" showWhen="android,windows"></ion-icon>
+            </button>
+        </ion-buttons>-->
     </ion-navbar>
 </ion-header>
 <ion-content>
+  <div class="fullScreen">
     <div class="content">
-    <div class="scoreFinale">
-        <h1>Score Finale</h1>
-        <div><strong><p><span>{{scoreFinale}}/10</span></p></strong></div>
+      <div class="scoreFinale">
+        <div class="progress-timer" *ngFor="let sfa of finalScoreArray"> 
+           <div class="timer">
+             {{sfa.score}}/10
+           </div>
+           <round-progress [current]="sfa.score" [max]="10" [color]="'#45ccce'" [radius]="100"  [rounded]="true" [stroke]="stroke" [responsive]="false" [animationDelay]="0"></round-progress>
+          </div>
+        <!--  <div class="congratulation-picture">
+            <img class="picture-dimention" src="https://i.ibb.co/Np9Bws7/ribbon-a.png">
+            <img class="picture-dimention" src="https://i.ibb.co/F7tbYQ3/ribbon-b.png">     
+          </div>-->
     </div> 
+   <div class="scoreFinale">
     <div id="group-button">
         <button class="btn" ion-button small>Partager</button>
         <button class="btn" ion-button small>Publier</button>
         <button class="btn" ion-button small (click)="backToHome()">Rejouer</button>
     </div>
+   </div>
+ 
+  </div>
 </div>
 </ion-content>
 <ion-footer>

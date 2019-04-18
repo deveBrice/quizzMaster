@@ -1,0 +1,641 @@
+{
+	"quizz": [{
+			"level": "Facile",
+			"name": "FairyTail",
+			"numberQuestion": 10,
+			"lifes": 3,
+			"jokers": 3,
+			"quizz": [{
+					"id": 0,
+					"question": "Panther Lily est le chat de Wendy?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: Le chat de Wendy est Carla",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elle est blanche",
+					"level": "Facile"
+				},
+				{
+					"id": 1,
+					"question": "Luxus fait partie de la guild Fairy Tail?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: Luxus en fait partie et son grand père en est le chef.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Equipe composé de natsu, grey et Lucy."
+				},
+				{
+					"id": 2,
+					"question": "Grey utilise la magie de l'eau?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: c'est celle de la glace.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Oul lui avait enseigné la magie."
+				},
+				{
+					"id": 3,
+					"question": "Le dragon Gadjeel est Metalicana?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: c'est Métalicana, dragon qui a disparu.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il a été élevé par le dragon de l'acier"
+				},
+				{
+					"id": 4,
+					"question": "Natsu reste souvent torse nu?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: c'est grey, on le reprend systématiquement.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Personnage maîtrisant la glace."
+				},
+				{
+					"id": 5,
+					"question": "La magie de Erza est de pouvoir changer d'armure?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: en fonction de son armure elle a un pouvoir different.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elle possède plusieurs pouvoirs."
+				},
+				{
+					"id": 6,
+					"question": "Happy est de couleur rouge?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: il est bleu.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Comme la couleur du ruban de lucy."
+				},
+				{
+					"id": 7,
+					"question": "Virgo appartenait à Angel?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: Lucy l'a vaincu et lui a dérobé la clé.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elle possèdait le même pouvoir que lucy."
+				},
+				{
+					"id": 8,
+					"question": "Plue est le chat de compagnie de Natsu?",
+					"response": false,
+					"rightAnswer": "Faux: c'est Happy, depuis que happy est tout petit.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"picture": "",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il possède des ailes."
+				},
+				{
+					"id": 9,
+					"question": "Mirajaine est surnomé la diablesse?",
+					"response": true,
+					"rightAnswer": "Vrai: Elle a le pouvoir de se transformer en diablesse.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"picture": "",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elle possède plusieurs forme de se type."
+				}
+			],
+			"lifeTab": [{
+					"id": 0,
+					"lifeIcon": "fa fa-heart"
+				},
+				{
+					"id": 1,
+					"lifeIcon": "fa fa-heart"
+				},
+				{
+					"id": 2,
+					"lifeIcon": "fa fa-heart"
+				}
+			],
+			"jokerTab": [{
+					"id": 0,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				},
+				{
+					"id": 1,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				},
+				{
+					"id": 2,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				}
+			],
+			"timer": [{
+				"currentTimer": 15,
+				"resetTimer": 15,
+				"startedTimer": false
+			}]
+		},
+		{
+			"level": "Moyen",
+			"name": "Fairy Tail",
+			"numberQuestion": 10,
+			"lifes": 3,
+			"jokers": 3,
+			"quizz": [{
+					"id": 0,
+					"question": "Aisen Vlad était présent lors du combat contre Oracion Seis?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: cette guild a été dissoute à cause de leur requête.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textresponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il avait fait une demande d'assassinat.",
+					"level": "Facile"
+				},
+				{
+					"id": 1,
+					"question": "Le Père de Kanna est gildarts?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: C'est l'un des plus puissant de la guild Fairy Tail.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il a des cheveux orange."
+				},
+				{
+					"id": 2,
+					"question": "Fairy Tail on vaincu Oracion Seis sur de l'ile de Tenro?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: c'etait Grimoire Heart.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Leur maître était Hadès."
+				},
+				{
+					"id": 3,
+					"question": "Le premier maître de la guild Fairy Tail est Mavis?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: Elle fut fondatrice avant de passer le relais à Makarof.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elle possède des ailes blanche de chaque coter de sa tête"
+				},
+				{
+					"id": 4,
+					"question": "Gadjeel à toujours fait partie de Fairy Tail?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: Il faisait partie de Phantom Lord.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "José en était le maitre."
+				},
+				{
+					"id": 5,
+					"question": "Oul à été tué par une magie puissante?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: en utilisant la glace absolue afin de gèle Déliora.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Démon des calamités, démon crée par Zeleph."
+				},
+				{
+					"id": 6,
+					"question": "Fairy Tail possède 4 grands pouvoirs?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: 3 grands pouvoirs utilisé par: Kanna, Makarof et Mavis.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Ces pouvoirs ont été utilisés avant et après que Makarof devient chef."
+				},
+				{
+					"id": 7,
+					"question": "Tous les Dragons slayers possèdent un exceed?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: Luxus ne possède pas d'exceed",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il possède la magie de la foudre"
+				},
+				{
+					"id": 8,
+					"question": "Le symbole de Lamia Scale est repésenté par un cheval",
+					"response": false,
+					"rightAnswer": "Faux: Elle est repésenté par une sirene.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"picture": "",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Mi humaine mi poisson."
+				},
+				{
+					"id": 9,
+					"question": "Kagura est la soeur de Simon?",
+					"response": true,
+					"rightAnswer": "Vrai: c'etait aussi l'ami d'enfance de Erza.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"picture": "",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il possède un cache oeil"
+				}
+			],
+			"lifeTab": [{
+					"id": 0,
+					"lifeIcon": "fa fa-heart"
+				},
+				{
+					"id": 1,
+					"lifeIcon": "fa fa-heart"
+				},
+				{
+					"id": 2,
+					"lifeIcon": "fa fa-heart"
+				}
+			],
+			"jokerTab": [{
+					"id": 0,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				},
+				{
+					"id": 1,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				},
+				{
+					"id": 2,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				}
+			],
+			"timer": [{
+				"currentTimer": 30,
+				"resetTimer": 30,
+				"startedTimer": false
+			}]
+		},
+		{
+			"level": "Difficile",
+			"name": "FairyTail",
+			"numberQuestion": 10,
+			"lifes": 3,
+			"jokers": 3,
+			"quizz": [{
+					"id": 0,
+					"question": "Erza est-elle la d'étentrice de la lame du ressentiment?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: La détentrice est Kaguya qui c'est battu contre Erza.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textresponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elle n'a même pas besoin de sortir la lame de son fourreau."
+				},
+				{
+					"id": 1,
+					"question": "Ignir est décédé le 7 juillet X777?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: Il c'est occupé de Natsu avant de mourir.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Les autres dragons l'ont suivi à la même date."
+				},
+				{
+					"id": 2,
+					"question": "Cobra à été élevé par Belslogia?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: Belsogia a élevé Sting Youclif.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il a combattu contre Natsu lors des grands jeux."
+				},
+				{
+					"id": 3,
+					"question": "Plue est l'esprit célèste de la constellation du chiot?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: Malgré cela il avait une forme de bonhome de neige.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Esprit de compagnie appartenant à la race canine"
+				},
+				{
+					"id": 4,
+					"question": "Le metier de lucy était manequin après que Natsu est partie 1 an",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: Elle est devenue rédactrice pour Sorcerer.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elle l'a fait surtout pour retrouver ses amis."
+				},
+				{
+					"id": 5,
+					"question": "Nakagami no Yoroi, plus de 10 ans que personne ne l'avait porter?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: Une armure qui appartient Erza.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Armure consommant beaucoup de puissance magique."
+				},
+				{
+					"id": 6,
+					"question": "Lyra est le prénom de la mère de Kanna?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: Sont prénom est Cornelia",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elles possèdaient le même nom de famille"
+				},
+				{
+					"id": 7,
+					"question": "Layla est la mère de lucy",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: Elle y fait connaissant de Jude dans la guild commerçante.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elle lui a donné ces clés."
+				},
+				{
+					"id": 8,
+					"question": "Le prénom de lucy est en rapport avec l'un des amis de sa mère?",
+					"response": false,
+					"rightAnswer": "Faux: Lucy vient de la guild Love & Lucky dont le 'K' fut retiré.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"picture": "",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il est en rapport avec le nom de sa guild."
+				},
+				{
+					"id": 9,
+					"question": "Karen Lilica appartient à la guild Blue Pegasus?",
+					"response": true,
+					"rightAnswer": "Vrai: Elle prenait ces esprits célestes pour des esclaves.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"picture": "",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elle y était constellationniste."
+				}
+			],
+			"lifeTab": [{
+					"id": 0,
+					"lifeIcon": "fa fa-heart"
+				},
+				{
+					"id": 1,
+					"lifeIcon": "fa fa-heart"
+				},
+				{
+					"id": 2,
+					"lifeIcon": "fa fa-heart"
+				}
+			],
+			"jokerTab": [{
+					"id": 0,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				},
+				{
+					"id": 1,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				},
+				{
+					"id": 2,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				}
+			],
+			"timer": [{
+				"currentTimer": 45,
+				"resetTimer": 45,
+				"startedTimer": false
+			}]
+		},
+    {
+			"level": "Extreme",
+			"name": "FairyTail",
+			"numberQuestion": 10,
+			"lifes": 3,
+			"jokers": 3,
+			"quizz": [{
+					"id": 0,
+					"question": "Le dragon force apparait pour la première fois pendant son combat face à hadès?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: il l'utilise contre Jellal.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textresponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Il est le maître de la guild crime sorcière."
+				},
+				{
+					"id": 1,
+					"question": "Il fallait l'accord des 5 conseillers pour lancer l'Aetherion?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: c'est larme ultime du conseil qui peut déréglé le climat.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Leur mission est de maintenir l'ordre magique."
+				},
+				{
+					"id": 2,
+					"question": "La magie de Jellal est la magie céleste?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: c'est la magie des corps céleste.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Son détenteur pouvait utiliser les propriétés astraux."
+				},
+				{
+					"id": 3,
+					"question": "Le vrai nom de Lumen Histoire est Fairy Heart?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: Il a été détruit par Kanna pour libérer le corps de Mavis.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "C'est un secret donner seulement au maître guild"
+				},
+				{
+					"id": 4,
+					"question": "Le Satan Soul peut utiliser 10 sorts différents?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: Satan Soul peut utiliser 12 sorts différents.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Un de moins que les clés du Zodiaques."
+				},
+				{
+					"id": 5,
+					"question": "Erza Possède en total 38 armures différentes?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: Elle possède une grand panoplie d'armure venant d'une autre dimension.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Presque autant que l'age de Guildarts."
+				},
+				{
+					"id": 6,
+					"question": "Jade E. Fiore utilise la magie de l'invisibilité?",
+					"picture": "",
+					"response": false,
+					"rightAnswer": "Faux: c'est la magie de la constellation.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elle utilise le même type de magie que Lucy."
+				},
+				{
+					"id": 7,
+					"question": "La magie de droy est celle des plantes?",
+					"picture": "",
+					"response": true,
+					"rightAnswer": "Vrai: magie qui permet de controler la croissance des plantes.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Variance de la magie de la nature."
+				},
+				{
+					"id": 8,
+					"question": "Lucky Olietta élevé par Makarof?",
+					"response": false,
+					"rightAnswer": "Faux: elle a été élevé par Hilda au dortoir Fairy hills",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"picture": "",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elle est agé de 80 ans."
+				},
+				{
+					"id": 9,
+					"question": "Millgana est la femme de Wakaba?",
+					"response": true,
+					"rightAnswer": "Vrai: Ce couple ont aussi une fille.",
+					"truePicture": "https://i.ibb.co/TbM1ZxN/true-Picture.png",
+					"falsePicture": "https://i.ibb.co/TKk3Jsm/false-Picture.jpg",
+					"picture": "",
+					"textResponseTrue": "Réponse correcte",
+					"textResponseFalse": "Réponse incorrecte",
+					"jokerResponse": "Elle a toujours les Yeux fermés avec le sourir."
+				}
+			],
+			"lifeTab": [{
+					"id": 0,
+					"lifeIcon": "fa fa-heart"
+				},
+				{
+					"id": 1,
+					"lifeIcon": "fa fa-heart"
+				},
+				{
+					"id": 2,
+					"lifeIcon": "fa fa-heart"
+				}
+			],
+			"jokerTab": [{
+					"id": 0,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				},
+				{
+					"id": 1,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				},
+				{
+					"id": 2,
+					"jokerImg": "https://i.ibb.co/jJc2ZCr/naruto-img.png"
+				}
+			],
+			"timer": [{
+				"currentTimer": 45,
+				"resetTimer": 45,
+				"startedTimer": false
+			}]
+		}
+	]
+}
