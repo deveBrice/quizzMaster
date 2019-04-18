@@ -8,8 +8,8 @@ webpackJsonp([0],{
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__domain_service_mangaListService__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__option_option__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__quizz_quizz__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__option_option__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__quizz_quizz__ = __webpack_require__(207);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__domain_service_quizzService__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__ = __webpack_require__(55);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -83,15 +83,18 @@ var HomePage = /** @class */ (function () {
         modal.present();
     };
     HomePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title class="title">\n\n      Accueil\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <button class="btn" ion-button large full (click)="openPageQuizz()">Jouer</button>\n\n    <button class="btn" ion-button large full>Classement</button>\n\n    <button class="btn" ion-button large full>Proposer une question</button>   \n\n</ion-content>\n\n<ion-footer>\n\n  <ion-toolbar>\n\n    <button class="btn2" ion-button large full (click)="openPageOption()">Option</button>   \n\n  </ion-toolbar>\n\n</ion-footer>\n\n'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\pages\home\home.html"*/,
-            styleUrls: ['./home.scss']
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-home',template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <!--<ion-buttons start>\n\n      <button ion-button icon-only menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n    </ion-buttons>-->\n\n    <ion-title class="title">\n\n      Accueil\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <button class="homeBtn" ion-button large full (click)="openQuizzPage()">Jouer</button>\n\n    <button class="homeBtn" ion-button large full>Classement</button>\n\n    <button class="homeBtn" ion-button large full>Proposer une question</button>  \n\n</ion-content>\n\n<ion-footer>\n\n  <ion-toolbar>\n\n    <button class="btn2" ion-button large full (click)="openModalOptionPage()">Option</button>   \n\n  </ion-toolbar>\n\n</ion-footer>'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\pages\home\home.html"*/,
+            styleUrls: ['/home.scss']
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__domain_service_quizzService__["a" /* QuizzService */], typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */]) === "function" && _a || Object, __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__domain_service_mangaListService__["a" /* MangaListService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__domain_service_mangaListService__["a" /* MangaListService */]) === "function" && _b || Object, __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__domain_service_quizzService__["a" /* QuizzService */],
+            __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_2__domain_service_mangaListService__["a" /* MangaListService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */]])
     ], HomePage);
     return HomePage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=home.js.map
@@ -104,7 +107,7 @@ var HomePage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MangaListService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -132,7 +135,7 @@ var MangaListService = /** @class */ (function () {
         });
     };
     MangaListService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
     ], MangaListService);
     return MangaListService;
@@ -142,7 +145,7 @@ var MangaListService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 115:
+/***/ 118:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -155,11 +158,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 115;
+webpackEmptyAsyncContext.id = 118;
 
 /***/ }),
 
-/***/ 157:
+/***/ 160:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -172,11 +175,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 157;
+webpackEmptyAsyncContext.id = 160;
 
 /***/ }),
 
-/***/ 201:
+/***/ 204:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -227,9 +230,9 @@ var ScoreFinalePage = /** @class */ (function () {
         this.loader.dismiss();
     };
     ScoreFinalePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-score-finale',template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\pages\scoreFinale\scoreFinale.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <ion-title class="title">\n\n        ScoreFinale\n\n      </ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <div class="content">\n\n    <div class="scoreFinale">\n\n        <h1>Score Finale</h1>\n\n        <div><strong><p><span>{{scoreFinale}}/10</span></p></strong></div>\n\n    </div> \n\n    <div id="group-button">\n\n        <button class="btn" ion-button small>Partager</button>\n\n        <button class="btn" ion-button small>Publier</button>\n\n        <button class="btn" ion-button small (click)="backToHome()">Rejouer</button>\n\n    </div>\n\n</div>\n\n</ion-content>\n\n<ion-footer>\n\n    <ion-toolbar>\n\n        <button class="btnClassement" ion-button large full (click)="openPageClassement()">Classement</button>   \n\n    </ion-toolbar>\n\n</ion-footer>'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\pages\scoreFinale\scoreFinale.html"*/,
-            styleUrls: ['./scoreFinale.scss']
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-score-finale',template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\pages\scoreFinale\scoreFinale.html"*/'<script src="https://code.iconify.design/1/1.0.0-rc7/iconify.min.js"></script>\n\n<ion-header>\n\n    <ion-navbar>\n\n      <ion-title class="title">\n\n        ScoreFinale\n\n      </ion-title>\n\n       <!--<ion-buttons left>\n\n            <button ion-button (click)="dismiss()">\n\n                <span ion-text color="primary" showWhen="ios">Cancel</span>\n\n                <ion-icon name="arrow-round-back" showWhen="android,windows"></ion-icon>\n\n            </button>\n\n        </ion-buttons>-->\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <div class="fullScreen">\n\n    <div class="content">\n\n      <div class="scoreFinale">\n\n        <div class="progress-timer" *ngFor="let sfa of finalScoreArray"> \n\n           <div class="timer">\n\n             {{sfa.score}}/10\n\n           </div>\n\n           <round-progress [current]="sfa.score" [max]="10" [color]="\'#45ccce\'" [radius]="100"  [rounded]="true" [stroke]="stroke" [responsive]="false" [animationDelay]="0"></round-progress>\n\n          </div>\n\n        <!--  <div class="congratulation-picture">\n\n            <img class="picture-dimention" src="https://i.ibb.co/Np9Bws7/ribbon-a.png">\n\n            <img class="picture-dimention" src="https://i.ibb.co/F7tbYQ3/ribbon-b.png">     \n\n          </div>-->\n\n    </div> \n\n   <div class="scoreFinale">\n\n    <div id="group-button">\n\n        <button class="btn" ion-button small>Partager</button>\n\n        <button class="btn" ion-button small>Publier</button>\n\n        <button class="btn" ion-button small (click)="backToHome()">Rejouer</button>\n\n    </div>\n\n   </div>\n\n \n\n  </div>\n\n</div>\n\n</ion-content>\n\n<ion-footer>\n\n    <ion-toolbar>\n\n        <button class="btnClassement" ion-button large full (click)="openPageClassement()">Classement</button>   \n\n    </ion-toolbar>\n\n</ion-footer>'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\pages\scoreFinale\scoreFinale.html"*/,
+            styleUrls: ['/src/pages/scoreFinale/scoreFinale.scss']
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */]])
@@ -241,16 +244,16 @@ var ScoreFinalePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 202:
+/***/ 205:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OptionPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__domain_service_mangaListService__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__domain_service_selectLevelService__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__domain_service_selectLevelService__ = __webpack_require__(206);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__domain_service_quizzService__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__ = __webpack_require__(55);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -390,28 +393,26 @@ var OptionPage = /** @class */ (function () {
         this.viewCtrl.dismiss();
     };
     OptionPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'page-option',template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\pages\option\option.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-buttons left>\n\n        <button ion-button icon-only (click)="dismissModal()">\n\n          <ion-icon name="arrow-back"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    <ion-title>\n\n      Option\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<!--<ion-content>\n\n  <ion-list>\n\n        <ion-item>\n\n          <ion-label>Manga</ion-label>\n\n          <ion-select [(ngModel)]="rml" [disabled]="connectivityFlag" (ionChange)="switchManga(rml)" cancelText="quitter" okText="valider">\n\n            <ion-option name="test" *ngFor="let rml of resultMangaList" [value]="rml.title" [selected]="rml.title == \'Naruto\'">{{rml.title}}</ion-option>\n\n          </ion-select>\n\n        </ion-item>\n\n      </ion-list>\n\n\n\n      <ion-list>\n\n        <ion-item>\n\n            <ion-label>Niveau</ion-label>\n\n              <ion-select [(ngModel)]="sl" (ionChange)="switchLevel(sl)"  cancelText="quitter" okText="valider">\n\n                 <ion-option *ngFor="let sl of resultSelectLevel"  [value]="sl.level"      [selected]="sl.level == \'Facile\'"> {{sl.level}}</ion-option>\n\n             </ion-select>\n\n        </ion-item>\n\n      </ion-list>\n\n</ion-content>-->\n\n\n\n<ion-content>\n\n<form [formGroup]="option">\n\n  <ion-list>\n\n        <ion-item>\n\n          <ion-label floating>Sélectionne le manga<span> *</span></ion-label>\n\n            <ion-select formControlName="Mangas" (ionChange)="switchManga(rml)" okText="sélectionner" cancelText="annuler">\n\n                <ion-option *ngFor="let rml of resultMangaList" [value]="rml.title"       >{{rml.title}}</ion-option>\n\n          </ion-select>\n\n        </ion-item>\n\n          <ion-item>\n\n            <ion-label floating>Sélectionne le niveau<span> *</span></ion-label>\n\n              <ion-select formControlName="Level" (ionChange)="switchLevel(sl)" okText="sélectionner" cancelText="annuler">\n\n                 <ion-option *ngFor="let sl of resultSelectLevel" [value]="sl.level"      > {{sl.level}}</ion-option>\n\n             </ion-select>\n\n        </ion-item>\n\n   </ion-list>\n\n</form>\n\n</ion-content>\n\n<ion-footer>\n\n  <ion-toolbar>\n\n         <button class="btn" ion-button large full type="submit" [disabled]="!option.valid" (click)="dismiss()">Valider</button> \n\n  </ion-toolbar>\n\n</ion-footer>\n\n'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\pages\option\option.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__domain_service_quizzService__["a" /* QuizzService */],
-            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavController */], typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__domain_service_mangaListService__["a" /* MangaListService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__domain_service_mangaListService__["a" /* MangaListService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__domain_service_selectLevelService__["a" /* SelectLevelService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__domain_service_selectLevelService__["a" /* SelectLevelService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */]) === "function" && _c || Object, __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["j" /* ViewController */],
-            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* LoadingController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_5__domain_service_quizzService__["a" /* QuizzService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__domain_service_quizzService__["a" /* QuizzService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__domain_service_mangaListService__["a" /* MangaListService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__domain_service_mangaListService__["a" /* MangaListService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_4__domain_service_selectLevelService__["a" /* SelectLevelService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__domain_service_selectLevelService__["a" /* SelectLevelService */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__domain_service_apiUrlsService__["a" /* ApiUrlsService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["j" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["j" /* ViewController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* LoadingController */]) === "function" && _g || Object])
     ], OptionPage);
     return OptionPage;
-    var _a, _b, _c;
+    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=option.js.map
 
 /***/ }),
 
-/***/ 203:
+/***/ 206:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SelectLevelService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -439,7 +440,7 @@ var SelectLevelService = /** @class */ (function () {
         });
     };
     SelectLevelService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
     ], SelectLevelService);
     return SelectLevelService;
@@ -449,7 +450,7 @@ var SelectLevelService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 204:
+/***/ 207:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -457,7 +458,7 @@ var SelectLevelService = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__domain_service_quizzService__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__scoreFinale_scoreFinale__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__scoreFinale_scoreFinale__ = __webpack_require__(204);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_moment__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_moment__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -804,31 +805,30 @@ var QuizzPage = /** @class */ (function () {
         alert.present();
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */]) === "function" && _a || Object)
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */])
     ], QuizzPage.prototype, "nav", void 0);
     QuizzPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'page-quizz',template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\pages\quizz\quizz.html"*/'<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">\n\n<ion-header *ngIf="displayQuizz">\n\n    <ion-navbar>\n\n     <ion-buttons end>\n\n        <button ion-button icon-only menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <ion-buttons left>\n\n        <button ion-button icon-only (click)="dismissModal()">\n\n          <ion-icon name="arrow-back"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <ion-title class="title">Quizz {{displayQuizz.name}}({{displayQuizz.level}})</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content *ngIf="quizzResult">\n\n <div class="fullScreen">\n\n    <div class="displayQuizz">\n\n      <div class="scoreAndLife"><strong>Score:<span> {{score}}/10</span></strong></div>\n\n        <div class="scoreAndLife">\n\n          <div class="joker">\n\n            <div *ngFor="let rdk of resultDisplayJoker"><img src="{{rdk.jokerImg}}"></div>\n\n          </div>\n\n         <div class="progress-timer" *ngFor="let act of getArrayTimer()"> \n\n           <div class="timer">\n\n             {{getFormatTimer(act.currentTimer,\'s\')}}\n\n           </div>\n\n           <round-progress [current]="act.currentTimer" [max]="act.resetTimer" [color]="\'#45ccce\'" [radius]="70" [stroke]="stroke"  [rounded]="true" [responsive]="false" [animation]="\'easeOutCubic\'" [animationDelay]="0" ></round-progress>\n\n          </div>\n\n         </div>\n\n        <div class="scoreAndLife">\n\n    Vie: <span *ngFor="let rdl of resultDisplayLife">\n\n           <i class="{{rdl.lifeIcon}}" aria-hidden="true"></i>\n\n        </span>\n\n      </div>\n\n    </div>\n\n    <div class="displayQuizz">\n\n      <div class="textResponse">\n\n             <strong><p class="trt" *ngIf="trueStatus">{{quizzResult.textResponseTrue}}</p></strong>\n\n             <strong><p class="trf" *ngIf="falseStatus">{{quizzResult.textResponseFalse}}</p></strong>\n\n             <strong><p class="trf" *ngIf="timeOutResponse">Temps écoulé!!</p></strong>\n\n        </div>\n\n         <div class="question">\n\n              <strong><p>{{quizzResult.question}}</p></strong>\n\n              \n\n              <img  class="boolPic" *ngIf="trueStatus" src="{{quizzResult.truePicture}}" alt="">\n\n              <img  class="boolPic" id="pictureSize" *ngIf="falseStatus" src="{{quizzResult.falsePicture}}" alt="">\n\n         </div>\n\n        <div class="next-button">\n\n             <button *ngIf="trueStatus || falseStatus || timeOutResponse"  ion-button full (click)="getNextQuestion()">Suivant</button>\n\n\n\n        </div>\n\n        <div class="rightAnswer">\n\n          <p class="trf" *ngIf="falseStatus || timeOutResponse">{{quizzResult.rightAnswer}}</p>\n\n        </div>\n\n        <div class="jokerText">\n\n            <p *ngIf="flagJoker">{{quizzResult.jokerResponse}}</p>\n\n        </div>\n\n    </div>\n\n</div>  \n\n</ion-content>\n\n<ion-footer *ngIf="quizzResult">\n\n  <ion-toolbar>    \n\n      <div class="group-button">          \n\n        <button class="btnTrue" [disabled]="trueStatus || falseStatus || timeOutResponse" ion-button large (click)="trueResponse(quizzResult.id)">Vrai </button>\n\n        <button class="past" [disabled]="trueStatus || falseStatus || timeOutResponse" ion-button large (click)="pastQuestion()">Passer</button>\n\n        <button class="btnFalse" [disabled]="trueStatus || falseStatus || timeOutResponse" name="false" ion-button large (click)="falseResponse(quizzResult.id)">Faux</button>    \n\n    </div>   \n\n  </ion-toolbar>\n\n</ion-footer>\n\n\n\n\n\n\n\n'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\pages\quizz\quizz.html"*/,
             styleUrls: ['/quizz.scss']
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__domain_service_quizzService__["a" /* QuizzService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__domain_service_quizzService__["a" /* QuizzService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */]) === "function" && _g || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__domain_service_quizzService__["a" /* QuizzService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */]])
     ], QuizzPage);
     return QuizzPage;
-    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=quizz.js.map
 
 /***/ }),
 
-/***/ 332:
+/***/ 336:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(333);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(355);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(359);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -836,26 +836,29 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 355:
+/***/ 359:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_scoreFinale_scoreFinale__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(410);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_scoreFinale_scoreFinale__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(414);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_quizz_quizz__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_option_option__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_http__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_quizz_quizz__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_option_option__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_http__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__domain_service_quizzService__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__domain_service_mangaListService__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__domain_service_apiUrlsService__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__domain_service_selectLevelService__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__domain_service_selectLevelService__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__angular_forms__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_angular_svg_round_progressbar__ = __webpack_require__(415);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_angular_svg_round_progressbar___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_angular_svg_round_progressbar__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -877,11 +880,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */],
                 __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
@@ -890,8 +895,10 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_5__pages_scoreFinale_scoreFinale__["a" /* ScoreFinalePage */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["BrowserModule"],
                 __WEBPACK_IMPORTED_MODULE_10__angular_http__["b" /* HttpModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_forms__["f" /* ReactiveFormsModule */],
+                __WEBPACK_IMPORTED_MODULE_16_angular_svg_round_progressbar__["RoundProgressModule"],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {}, {
                     links: []
                 })
@@ -921,264 +928,264 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 409:
+/***/ 413:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./af": 205,
-	"./af.js": 205,
-	"./ar": 206,
-	"./ar-dz": 207,
-	"./ar-dz.js": 207,
-	"./ar-kw": 208,
-	"./ar-kw.js": 208,
-	"./ar-ly": 209,
-	"./ar-ly.js": 209,
-	"./ar-ma": 210,
-	"./ar-ma.js": 210,
-	"./ar-sa": 211,
-	"./ar-sa.js": 211,
-	"./ar-tn": 212,
-	"./ar-tn.js": 212,
-	"./ar.js": 206,
-	"./az": 213,
-	"./az.js": 213,
-	"./be": 214,
-	"./be.js": 214,
-	"./bg": 215,
-	"./bg.js": 215,
-	"./bm": 216,
-	"./bm.js": 216,
-	"./bn": 217,
-	"./bn.js": 217,
-	"./bo": 218,
-	"./bo.js": 218,
-	"./br": 219,
-	"./br.js": 219,
-	"./bs": 220,
-	"./bs.js": 220,
-	"./ca": 221,
-	"./ca.js": 221,
-	"./cs": 222,
-	"./cs.js": 222,
-	"./cv": 223,
-	"./cv.js": 223,
-	"./cy": 224,
-	"./cy.js": 224,
-	"./da": 225,
-	"./da.js": 225,
-	"./de": 226,
-	"./de-at": 227,
-	"./de-at.js": 227,
-	"./de-ch": 228,
-	"./de-ch.js": 228,
-	"./de.js": 226,
-	"./dv": 229,
-	"./dv.js": 229,
-	"./el": 230,
-	"./el.js": 230,
-	"./en-SG": 231,
-	"./en-SG.js": 231,
-	"./en-au": 232,
-	"./en-au.js": 232,
-	"./en-ca": 233,
-	"./en-ca.js": 233,
-	"./en-gb": 234,
-	"./en-gb.js": 234,
-	"./en-ie": 235,
-	"./en-ie.js": 235,
-	"./en-il": 236,
-	"./en-il.js": 236,
-	"./en-nz": 237,
-	"./en-nz.js": 237,
-	"./eo": 238,
-	"./eo.js": 238,
-	"./es": 239,
-	"./es-do": 240,
-	"./es-do.js": 240,
-	"./es-us": 241,
-	"./es-us.js": 241,
-	"./es.js": 239,
-	"./et": 242,
-	"./et.js": 242,
-	"./eu": 243,
-	"./eu.js": 243,
-	"./fa": 244,
-	"./fa.js": 244,
-	"./fi": 245,
-	"./fi.js": 245,
-	"./fo": 246,
-	"./fo.js": 246,
-	"./fr": 247,
-	"./fr-ca": 248,
-	"./fr-ca.js": 248,
-	"./fr-ch": 249,
-	"./fr-ch.js": 249,
-	"./fr.js": 247,
-	"./fy": 250,
-	"./fy.js": 250,
-	"./ga": 251,
-	"./ga.js": 251,
-	"./gd": 252,
-	"./gd.js": 252,
-	"./gl": 253,
-	"./gl.js": 253,
-	"./gom-latn": 254,
-	"./gom-latn.js": 254,
-	"./gu": 255,
-	"./gu.js": 255,
-	"./he": 256,
-	"./he.js": 256,
-	"./hi": 257,
-	"./hi.js": 257,
-	"./hr": 258,
-	"./hr.js": 258,
-	"./hu": 259,
-	"./hu.js": 259,
-	"./hy-am": 260,
-	"./hy-am.js": 260,
-	"./id": 261,
-	"./id.js": 261,
-	"./is": 262,
-	"./is.js": 262,
-	"./it": 263,
-	"./it-ch": 264,
-	"./it-ch.js": 264,
-	"./it.js": 263,
-	"./ja": 265,
-	"./ja.js": 265,
-	"./jv": 266,
-	"./jv.js": 266,
-	"./ka": 267,
-	"./ka.js": 267,
-	"./kk": 268,
-	"./kk.js": 268,
-	"./km": 269,
-	"./km.js": 269,
-	"./kn": 270,
-	"./kn.js": 270,
-	"./ko": 271,
-	"./ko.js": 271,
-	"./ku": 272,
-	"./ku.js": 272,
-	"./ky": 273,
-	"./ky.js": 273,
-	"./lb": 274,
-	"./lb.js": 274,
-	"./lo": 275,
-	"./lo.js": 275,
-	"./lt": 276,
-	"./lt.js": 276,
-	"./lv": 277,
-	"./lv.js": 277,
-	"./me": 278,
-	"./me.js": 278,
-	"./mi": 279,
-	"./mi.js": 279,
-	"./mk": 280,
-	"./mk.js": 280,
-	"./ml": 281,
-	"./ml.js": 281,
-	"./mn": 282,
-	"./mn.js": 282,
-	"./mr": 283,
-	"./mr.js": 283,
-	"./ms": 284,
-	"./ms-my": 285,
-	"./ms-my.js": 285,
-	"./ms.js": 284,
-	"./mt": 286,
-	"./mt.js": 286,
-	"./my": 287,
-	"./my.js": 287,
-	"./nb": 288,
-	"./nb.js": 288,
-	"./ne": 289,
-	"./ne.js": 289,
-	"./nl": 290,
-	"./nl-be": 291,
-	"./nl-be.js": 291,
-	"./nl.js": 290,
-	"./nn": 292,
-	"./nn.js": 292,
-	"./pa-in": 293,
-	"./pa-in.js": 293,
-	"./pl": 294,
-	"./pl.js": 294,
-	"./pt": 295,
-	"./pt-br": 296,
-	"./pt-br.js": 296,
-	"./pt.js": 295,
-	"./ro": 297,
-	"./ro.js": 297,
-	"./ru": 298,
-	"./ru.js": 298,
-	"./sd": 299,
-	"./sd.js": 299,
-	"./se": 300,
-	"./se.js": 300,
-	"./si": 301,
-	"./si.js": 301,
-	"./sk": 302,
-	"./sk.js": 302,
-	"./sl": 303,
-	"./sl.js": 303,
-	"./sq": 304,
-	"./sq.js": 304,
-	"./sr": 305,
-	"./sr-cyrl": 306,
-	"./sr-cyrl.js": 306,
-	"./sr.js": 305,
-	"./ss": 307,
-	"./ss.js": 307,
-	"./sv": 308,
-	"./sv.js": 308,
-	"./sw": 309,
-	"./sw.js": 309,
-	"./ta": 310,
-	"./ta.js": 310,
-	"./te": 311,
-	"./te.js": 311,
-	"./tet": 312,
-	"./tet.js": 312,
-	"./tg": 313,
-	"./tg.js": 313,
-	"./th": 314,
-	"./th.js": 314,
-	"./tl-ph": 315,
-	"./tl-ph.js": 315,
-	"./tlh": 316,
-	"./tlh.js": 316,
-	"./tr": 317,
-	"./tr.js": 317,
-	"./tzl": 318,
-	"./tzl.js": 318,
-	"./tzm": 319,
-	"./tzm-latn": 320,
-	"./tzm-latn.js": 320,
-	"./tzm.js": 319,
-	"./ug-cn": 321,
-	"./ug-cn.js": 321,
-	"./uk": 322,
-	"./uk.js": 322,
-	"./ur": 323,
-	"./ur.js": 323,
-	"./uz": 324,
-	"./uz-latn": 325,
-	"./uz-latn.js": 325,
-	"./uz.js": 324,
-	"./vi": 326,
-	"./vi.js": 326,
-	"./x-pseudo": 327,
-	"./x-pseudo.js": 327,
-	"./yo": 328,
-	"./yo.js": 328,
-	"./zh-cn": 329,
-	"./zh-cn.js": 329,
-	"./zh-hk": 330,
-	"./zh-hk.js": 330,
-	"./zh-tw": 331,
-	"./zh-tw.js": 331
+	"./af": 208,
+	"./af.js": 208,
+	"./ar": 209,
+	"./ar-dz": 210,
+	"./ar-dz.js": 210,
+	"./ar-kw": 211,
+	"./ar-kw.js": 211,
+	"./ar-ly": 212,
+	"./ar-ly.js": 212,
+	"./ar-ma": 213,
+	"./ar-ma.js": 213,
+	"./ar-sa": 214,
+	"./ar-sa.js": 214,
+	"./ar-tn": 215,
+	"./ar-tn.js": 215,
+	"./ar.js": 209,
+	"./az": 216,
+	"./az.js": 216,
+	"./be": 217,
+	"./be.js": 217,
+	"./bg": 218,
+	"./bg.js": 218,
+	"./bm": 219,
+	"./bm.js": 219,
+	"./bn": 220,
+	"./bn.js": 220,
+	"./bo": 221,
+	"./bo.js": 221,
+	"./br": 222,
+	"./br.js": 222,
+	"./bs": 223,
+	"./bs.js": 223,
+	"./ca": 224,
+	"./ca.js": 224,
+	"./cs": 225,
+	"./cs.js": 225,
+	"./cv": 226,
+	"./cv.js": 226,
+	"./cy": 227,
+	"./cy.js": 227,
+	"./da": 228,
+	"./da.js": 228,
+	"./de": 229,
+	"./de-at": 230,
+	"./de-at.js": 230,
+	"./de-ch": 231,
+	"./de-ch.js": 231,
+	"./de.js": 229,
+	"./dv": 232,
+	"./dv.js": 232,
+	"./el": 233,
+	"./el.js": 233,
+	"./en-SG": 234,
+	"./en-SG.js": 234,
+	"./en-au": 235,
+	"./en-au.js": 235,
+	"./en-ca": 236,
+	"./en-ca.js": 236,
+	"./en-gb": 237,
+	"./en-gb.js": 237,
+	"./en-ie": 238,
+	"./en-ie.js": 238,
+	"./en-il": 239,
+	"./en-il.js": 239,
+	"./en-nz": 240,
+	"./en-nz.js": 240,
+	"./eo": 241,
+	"./eo.js": 241,
+	"./es": 242,
+	"./es-do": 243,
+	"./es-do.js": 243,
+	"./es-us": 244,
+	"./es-us.js": 244,
+	"./es.js": 242,
+	"./et": 245,
+	"./et.js": 245,
+	"./eu": 246,
+	"./eu.js": 246,
+	"./fa": 247,
+	"./fa.js": 247,
+	"./fi": 248,
+	"./fi.js": 248,
+	"./fo": 249,
+	"./fo.js": 249,
+	"./fr": 250,
+	"./fr-ca": 251,
+	"./fr-ca.js": 251,
+	"./fr-ch": 252,
+	"./fr-ch.js": 252,
+	"./fr.js": 250,
+	"./fy": 253,
+	"./fy.js": 253,
+	"./ga": 254,
+	"./ga.js": 254,
+	"./gd": 255,
+	"./gd.js": 255,
+	"./gl": 256,
+	"./gl.js": 256,
+	"./gom-latn": 257,
+	"./gom-latn.js": 257,
+	"./gu": 258,
+	"./gu.js": 258,
+	"./he": 259,
+	"./he.js": 259,
+	"./hi": 260,
+	"./hi.js": 260,
+	"./hr": 261,
+	"./hr.js": 261,
+	"./hu": 262,
+	"./hu.js": 262,
+	"./hy-am": 263,
+	"./hy-am.js": 263,
+	"./id": 264,
+	"./id.js": 264,
+	"./is": 265,
+	"./is.js": 265,
+	"./it": 266,
+	"./it-ch": 267,
+	"./it-ch.js": 267,
+	"./it.js": 266,
+	"./ja": 268,
+	"./ja.js": 268,
+	"./jv": 269,
+	"./jv.js": 269,
+	"./ka": 270,
+	"./ka.js": 270,
+	"./kk": 271,
+	"./kk.js": 271,
+	"./km": 272,
+	"./km.js": 272,
+	"./kn": 273,
+	"./kn.js": 273,
+	"./ko": 274,
+	"./ko.js": 274,
+	"./ku": 275,
+	"./ku.js": 275,
+	"./ky": 276,
+	"./ky.js": 276,
+	"./lb": 277,
+	"./lb.js": 277,
+	"./lo": 278,
+	"./lo.js": 278,
+	"./lt": 279,
+	"./lt.js": 279,
+	"./lv": 280,
+	"./lv.js": 280,
+	"./me": 281,
+	"./me.js": 281,
+	"./mi": 282,
+	"./mi.js": 282,
+	"./mk": 283,
+	"./mk.js": 283,
+	"./ml": 284,
+	"./ml.js": 284,
+	"./mn": 285,
+	"./mn.js": 285,
+	"./mr": 286,
+	"./mr.js": 286,
+	"./ms": 287,
+	"./ms-my": 288,
+	"./ms-my.js": 288,
+	"./ms.js": 287,
+	"./mt": 289,
+	"./mt.js": 289,
+	"./my": 290,
+	"./my.js": 290,
+	"./nb": 291,
+	"./nb.js": 291,
+	"./ne": 292,
+	"./ne.js": 292,
+	"./nl": 293,
+	"./nl-be": 294,
+	"./nl-be.js": 294,
+	"./nl.js": 293,
+	"./nn": 295,
+	"./nn.js": 295,
+	"./pa-in": 296,
+	"./pa-in.js": 296,
+	"./pl": 297,
+	"./pl.js": 297,
+	"./pt": 298,
+	"./pt-br": 299,
+	"./pt-br.js": 299,
+	"./pt.js": 298,
+	"./ro": 300,
+	"./ro.js": 300,
+	"./ru": 301,
+	"./ru.js": 301,
+	"./sd": 302,
+	"./sd.js": 302,
+	"./se": 303,
+	"./se.js": 303,
+	"./si": 304,
+	"./si.js": 304,
+	"./sk": 305,
+	"./sk.js": 305,
+	"./sl": 306,
+	"./sl.js": 306,
+	"./sq": 307,
+	"./sq.js": 307,
+	"./sr": 308,
+	"./sr-cyrl": 309,
+	"./sr-cyrl.js": 309,
+	"./sr.js": 308,
+	"./ss": 310,
+	"./ss.js": 310,
+	"./sv": 311,
+	"./sv.js": 311,
+	"./sw": 312,
+	"./sw.js": 312,
+	"./ta": 313,
+	"./ta.js": 313,
+	"./te": 314,
+	"./te.js": 314,
+	"./tet": 315,
+	"./tet.js": 315,
+	"./tg": 316,
+	"./tg.js": 316,
+	"./th": 317,
+	"./th.js": 317,
+	"./tl-ph": 318,
+	"./tl-ph.js": 318,
+	"./tlh": 319,
+	"./tlh.js": 319,
+	"./tr": 320,
+	"./tr.js": 320,
+	"./tzl": 321,
+	"./tzl.js": 321,
+	"./tzm": 322,
+	"./tzm-latn": 323,
+	"./tzm-latn.js": 323,
+	"./tzm.js": 322,
+	"./ug-cn": 324,
+	"./ug-cn.js": 324,
+	"./uk": 325,
+	"./uk.js": 325,
+	"./ur": 326,
+	"./ur.js": 326,
+	"./uz": 327,
+	"./uz-latn": 328,
+	"./uz-latn.js": 328,
+	"./uz.js": 327,
+	"./vi": 329,
+	"./vi.js": 329,
+	"./x-pseudo": 330,
+	"./x-pseudo.js": 330,
+	"./yo": 331,
+	"./yo.js": 331,
+	"./zh-cn": 332,
+	"./zh-cn.js": 332,
+	"./zh-hk": 333,
+	"./zh-hk.js": 333,
+	"./zh-tw": 334,
+	"./zh-tw.js": 334
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -1194,19 +1201,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 409;
+webpackContext.id = 413;
 
 /***/ }),
 
-/***/ 410:
+/***/ 414:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(200);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(103);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1233,7 +1240,7 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"C:\Developpeur\Front-End\quizzMaster\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Developpeur\Front-End\quizzMaster\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -1250,11 +1257,11 @@ var MyApp = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return QuizzService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__apiUrlsService__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_catch__ = __webpack_require__(404);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_catch__ = __webpack_require__(408);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_toPromise__ = __webpack_require__(407);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_toPromise__ = __webpack_require__(411);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_toPromise__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1344,11 +1351,10 @@ var QuizzService = /** @class */ (function () {
         }
     };
     QuizzService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */], typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__apiUrlsService__["a" /* ApiUrlsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__apiUrlsService__["a" /* ApiUrlsService */]) === "function" && _a || Object])
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_2__apiUrlsService__["a" /* ApiUrlsService */]])
     ], QuizzService);
     return QuizzService;
-    var _a;
 }());
 
 //# sourceMappingURL=quizzService.js.map
@@ -1361,7 +1367,7 @@ var QuizzService = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ApiUrlsService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1392,7 +1398,7 @@ var ApiUrlsService = /** @class */ (function () {
         });
     };
     ApiUrlsService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
     ], ApiUrlsService);
     return ApiUrlsService;
@@ -1402,5 +1408,5 @@ var ApiUrlsService = /** @class */ (function () {
 
 /***/ })
 
-},[332]);
+},[336]);
 //# sourceMappingURL=main.js.map

@@ -66,27 +66,11 @@ export class OptionPage implements OnInit {
         this.resultSelectLevel = resSelectLevel;
       })
 
-<<<<<<< HEAD
     /*this.quizzService.getAllQuizz()
       .subscribe((resQuizz: Array<Questionnaire>) => {
         resQuizz.filter((row) => {
           
           this.resultQuizz.push(row);
-=======
-  ngOnInit(){
- 
-   this.quizzService.questions.filter((row)=>{
-     row.easy.filter((subRow)=>{
-       this.quest = subRow
-     })
-   })
-   
-
-  this.quizzService.getAllQuizz(this.numQuestion)
-    .subscribe((quizz: Array<Quizz>)=>{
-       quizz.filter((row)=>{
-         this.quizz.push(row);
->>>>>>> dev
         })
       })*/
 
@@ -101,7 +85,6 @@ export class OptionPage implements OnInit {
       }
     })
 
-<<<<<<< HEAD
  
   }
 
@@ -137,12 +120,6 @@ export class OptionPage implements OnInit {
       row.level == level
     ).map((result) => { this.quizzByLevelResult = result })
     return this.quizzByLevelResult;
-=======
-    this.themeService.findAllTheme()
-    .subscribe((theme: Array<Theme>)=>{
-      this.themeResult = theme;
-    })  
->>>>>>> dev
   }
 
   switchLevel(level: string) {
